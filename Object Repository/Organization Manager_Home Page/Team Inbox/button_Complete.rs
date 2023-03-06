@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Complete</name>
+   <tag></tag>
+   <elementGuidId>6d7c6715-9053-4748-9499-f42266c57082</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e-service-wrapper']/div[2]/div/div/button[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>22988b2e-d6d8-4c23-9e65-a6382073a698</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary ng-star-inserted</value>
+      <webElementGuid>c5680d5d-7e36-485f-90fd-6f1792eb6ac3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>أكتمال</value>
+      <webElementGuid>276f2fa7-9741-481b-899c-9efe581ba253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e-service-wrapper&quot;)/div[@class=&quot;row mt-4 mb-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;d-flex flex-row flex-wrap gap-2 justify-content-center&quot;]/button[@class=&quot;btn btn-primary ng-star-inserted&quot;]</value>
+      <webElementGuid>c27b3572-fa4e-42c3-9111-3c78aff2771a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e-service-wrapper']/div[2]/div/div/button[3]</value>
+      <webElementGuid>a992d63d-16c2-4fd6-9127-87eaf38191af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعفاء'])[1]/following::button[1]</value>
+      <webElementGuid>d5129400-cce4-451f-9639-03d203de2f39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حفظ'])[1]/following::button[2]</value>
+      <webElementGuid>d867edbf-e5ee-4e67-aa5b-55871e093bed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إعادة'])[1]/preceding::button[1]</value>
+      <webElementGuid>af8825b7-528e-44db-b549-f7fde0aa1bab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button[3]</value>
+      <webElementGuid>8c011f41-1062-4974-bc53-b9beb0797dbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'أكتمال' or . = 'أكتمال')]</value>
+      <webElementGuid>de07bb8a-c037-4629-ab9a-b3485c399df3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

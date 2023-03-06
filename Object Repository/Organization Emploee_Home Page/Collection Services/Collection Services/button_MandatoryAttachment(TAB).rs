@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_MandatoryAttachment(TAB)</name>
+   <tag></tag>
+   <elementGuidId>9bb23f9c-92b7-439c-ba45-89dfb25d9592</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab[3]/div/attachments/div/app-table/div/table/tbody/tr/td[7]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.shadow-sm.btn-secondary.d-flex.align-items-center.justify-content-start.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>25d6ffe6-bdc0-4346-87d7-18fed58f0a46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm shadow-sm btn-secondary d-flex align-items-center justify-content-start ng-star-inserted</value>
+      <webElementGuid>27832199-ab7c-4509-9a46-31abb844cded</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip564879</value>
+      <webElementGuid>f1882c44-1375-4232-90d2-5da6d7b004b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c135-48 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c135-48 ng-star-inserted&quot;]/attachments[@class=&quot;ng-star-inserted&quot;]/div[1]/app-table[1]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;cdk-table table table-striped table-bordered caption-top ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;cdk-row ng-star-inserted&quot;]/td[@class=&quot;cdk-cell cdk-column-actions ng-star-inserted&quot;]/div[@class=&quot;d-flex gap-2&quot;]/button[@class=&quot;btn btn-sm shadow-sm btn-secondary d-flex align-items-center justify-content-start ng-star-inserted&quot;]</value>
+      <webElementGuid>090b067e-cc75-4497-8c60-42a97d751a49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[3]/div/attachments/div/app-table/div/table/tbody/tr/td[7]/div/button</value>
+      <webElementGuid>fedab98f-cce8-4a12-81f8-bdf13a671ff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[2]/following::button[1]</value>
+      <webElementGuid>4134196f-34f2-4be0-be40-d77f54214bed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='نعم'])[1]/following::button[1]</value>
+      <webElementGuid>14f9e1fd-67ee-4d00-a47d-49a270068c9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='قالب تواصل'])[1]/preceding::button[3]</value>
+      <webElementGuid>9d1a124c-4102-4c30-9af8-1f01b8cecd94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tawasol Template yest'])[1]/preceding::button[3]</value>
+      <webElementGuid>4a2f97a8-1653-43b1-aab0-1586394938d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/div/button</value>
+      <webElementGuid>7243990d-7456-4a49-8097-9dfdaa740fd3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

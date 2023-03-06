@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_License number</name>
+   <tag></tag>
+   <elementGuidId>ab39b9cb-f096-4f4d-91e7-aebe22eaebfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab/div/div[2]/collection-item/div/app-table/div/table/tbody/tr/td[9]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-primary.text-decoration-none.cursor-pointer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4c4345ac-25d0-4184-9917-5f04995bdc7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-primary text-decoration-none cursor-pointer</value>
+      <webElementGuid>206dc54b-307b-4e79-a371-bd86f3fc07fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COLN/911dd/2023/2</value>
+      <webElementGuid>e4c26bd6-1054-46a4-b659-6cbdf49f70b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c135-1165 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c135-1165 ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/collection-item[1]/div[@class=&quot;row mt-2&quot;]/app-table[1]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;cdk-table table border border-1 ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;cdk-row ng-star-inserted&quot;]/td[@class=&quot;cdk-cell cdk-column-exportedLicenseFullSerial ng-star-inserted&quot;]/span[@class=&quot;text-primary text-decoration-none cursor-pointer&quot;]</value>
+      <webElementGuid>235c3ac6-61e3-4904-ac0f-495d581f5a8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab/div/div[2]/collection-item/div/app-table/div/table/tbody/tr/td[9]/span</value>
+      <webElementGuid>14acf677-1d62-4cd2-8ee7-1f642ea92c42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='N/A'])[1]/following::span[1]</value>
+      <webElementGuid>a4f05f20-6c7a-4992-b84e-1270708736b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إجراءات'])[1]/following::span[2]</value>
+      <webElementGuid>66b2fb53-0b12-44c8-bc8b-3e61c8c58a06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الشروحات الخاصة'])[2]/preceding::span[1]</value>
+      <webElementGuid>e351661f-b8d1-45ff-b7c1-5b92bf9fb6cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المرفقات'])[2]/preceding::span[3]</value>
+      <webElementGuid>d3ceb765-d6fe-467f-b07b-e16e29bbd023</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/span</value>
+      <webElementGuid>f52524ad-17f3-4235-b451-886225727484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'COLN/911dd/2023/2' or . = 'COLN/911dd/2023/2')]</value>
+      <webElementGuid>455220d9-03bc-4f96-b36b-0aabcf371680</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

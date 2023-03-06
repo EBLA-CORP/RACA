@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>الجمعيات والمنظمات</description>
+      <initValue>'http://eblaepm.no-ip.org:9096/eservices-ui/#/login-external'</initValue>
+      <name>Url_external</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظفي راكا</description>
+      <initValue>'http://eblaepm.no-ip.org:9096/eservices-ui/#/login'</initValue>
+      <name>Url_Internal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف جمعية أو مؤسسة خيرية</description>
+      <initValue>'11411911411'</initValue>
+      <name>Username_ExternalEmployee</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير جمعية أو مؤسسة خيرية</description>
+      <initValue>'33433343334'</initValue>
+      <name>Username_ExternalManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تراخيص 1</description>
+      <initValue>'luser1'</initValue>
+      <name>username_LicensingUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تراخيص 2</description>
+      <initValue>'luser2'</initValue>
+      <name>username_LicensingUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تراخيص 1 إيبلا</description>
+      <initValue>'eblaluser1'</initValue>
+      <name>username_LicensingUserEbla1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تراخيص 2 إيبلا</description>
+      <initValue>'eblaluser2'</initValue>
+      <name>username_LicensingUserEbla2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رئيس قسم التراخيص والدعم</description>
+      <initValue>'racauser2'</initValue>
+      <name>username_LicensingHead</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير التراخيص والدعم</description>
+      <initValue>'racauser4'</initValue>
+      <name>username_LicensingManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير عام التراخيص والدعم</description>
+      <initValue>'racauser5'</initValue>
+      <name>username_LicensingGeneralManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ebla'</initValue>
+      <name>password1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456'</initValue>
+      <name>password2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف + اسم الجمعية</description>
+      <initValue>'أنس'</initValue>
+      <name>Verify_ExternalEmployee</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير +اسم الجمعية</description>
+      <initValue>'أنس'</initValue>
+      <name>Verify_ExternalManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 1+ اسم الجمعية</description>
+      <initValue>'موظف التراخيص 1 / جمعية أنس'</initValue>
+      <name>switch_LicensingUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 2+ اسم الجمعية</description>
+      <initValue>'موظف التراخيص 2 / جمعية أنس'</initValue>
+      <name>switch_LicensingUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 3+ اسم الجمعية</description>
+      <initValue>'موظف التراخيص 1-ايبلا / جمعية أنس'</initValue>
+      <name>switch_LicensingUser3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 4+ اسم الجمعية</description>
+      <initValue>'موظف التراخيص 2-ايبلا / جمعية أنس'</initValue>
+      <name>switch_LicensingUser4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'رئيس قسم التراخيص'</initValue>
+      <name>Verify_LicensingHead</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'مدير التراخيص و الدعم'</initValue>
+      <name>Verify_LicensingManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الطلب الديناميكي</description>
+      <initValue>''</initValue>
+      <name>RequestNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف التراخيص مستلم الطلب 1</description>
+      <initValue>''</initValue>
+      <name>LicensingSpecialist1st</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف التراخيص مستلم الطلب 2</description>
+      <initValue>''</initValue>
+      <name>LicensingSpecialist2nd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الرخصة الديناميكي</description>
+      <initValue>''</initValue>
+      <name>LicenseNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الرخصة الديناميكي الثاني</description>
+      <initValue>''</initValue>
+      <name>LicenseNumber2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>وقت انتظار تحميل صفحة تسجيل الدخول</description>
+      <initValue>10</initValue>
+      <name>DelayTime1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>وقت انتظار تحميل صفحة المستخدم</description>
+      <initValue>15</initValue>
+      <name>DelayTime2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>وقت انتظار انتقال الطلب من بريد المجموعة بريد المستخدم</description>
+      <initValue>10</initValue>
+      <name>DelayTime3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مسار تحميل ملف</description>
+      <initValue>'D:\\^My All^\\Sample PDF.pdf'</initValue>
+      <name>UploadFile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم تعريف المحصل(غير مستخدم حاليا)</description>
+      <initValue>''</initValue>
+      <name>Collector_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اكتب نوع خدمة التحصيل هنا</description>
+      <initValue>'اعتماد صناديق التحصيل'</initValue>
+      <name>CollectionServicesType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>العملة</description>
+      <initValue>'ريال قطرى'</initValue>
+      <name>Currency</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اسم البنك</description>
+      <initValue>'اتش اس بي سي'</initValue>
+      <name>BankName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم البطاقة القطرية للمخول بالتوقيع</description>
+      <initValue>'11111346111'</initValue>
+      <name>Signatory</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الحساب البنكي الأول</description>
+      <initValue>''</initValue>
+      <name>AccountNo1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الحساب البنكي الثاني</description>
+      <initValue>''</initValue>
+      <name>AccountNo2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم تعريف الموظف الديناميكي</description>
+      <initValue>''</initValue>
+      <name>Employee_ID</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

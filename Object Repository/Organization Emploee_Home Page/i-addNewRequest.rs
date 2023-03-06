@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i-addNewRequest</name>
+   <tag></tag>
+   <elementGuidId>6339d338-3812-4e51-8796-b1a5bd4ad754</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='menu-item-list']/app-sidebar-menu-item-list/ul/li/app-sidebar-menu-item-list/ul/li/a[2]/span[2]/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-plus.ng-tns-c80-13</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>79d5ab35-b69c-4005-bc63-eaa6b101ff01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-plus ng-tns-c80-13</value>
+      <webElementGuid>a5ca36fc-0ef4-4b88-9fcd-ad3df8fbbf15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-item-list&quot;)/app-sidebar-menu-item-list[@class=&quot;ng-tns-c81-2 ng-tns-c80-3 ng-star-inserted&quot;]/ul[@class=&quot;ng-tns-c80-3 level-1 sidebar-menu-list&quot;]/li[@class=&quot;sidebar-menu-item ng-tns-c80-3 parent-menu-item has-children ng-trigger ng-trigger-expendCollapse ng-star-inserted expanded&quot;]/app-sidebar-menu-item-list[@class=&quot;ng-tns-c80-13 ng-tns-c80-3 ng-star-inserted&quot;]/ul[@class=&quot;ng-tns-c80-13 level-2 sidebar-menu-list&quot;]/li[@class=&quot;sidebar-menu-item ng-tns-c80-13 px-2 ng-trigger ng-trigger-expendCollapse ng-star-inserted&quot;]/a[@class=&quot;d-flex flex-row align-items-center overflow-hidden position-relative ng-tns-c80-13 px-2 justify-content-start color:&quot;]/span[@class=&quot;instant-action position-absolute end-0 ng-tns-c80-13 ng-star-inserted&quot;]/button[@class=&quot;btn icon-btn m-0 shadow-none ng-tns-c80-13 ng-star-inserted&quot;]/i[@class=&quot;mdi mdi-plus ng-tns-c80-13&quot;]</value>
+      <webElementGuid>3a66cc70-9271-4b33-9103-855b5495d593</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='menu-item-list']/app-sidebar-menu-item-list/ul/li/app-sidebar-menu-item-list/ul/li/a[2]/span[2]/button[2]/i</value>
+      <webElementGuid>0262de31-cd50-4dc0-b850-b84460ad11eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/button[2]/i</value>
+      <webElementGuid>b3057d7f-4437-496e-90b3-e6cde493aa96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

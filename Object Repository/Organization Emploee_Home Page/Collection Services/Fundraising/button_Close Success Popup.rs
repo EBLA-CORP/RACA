@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Close Success Popup</name>
+   <tag></tag>
+   <elementGuidId>3ede1fe4-4c87-4aa2-b218-04318dd85902</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.shadow.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='أغلق']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>73f1e5e3-a633-4e75-9baa-2e9259f670f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary shadow ng-star-inserted</value>
+      <webElementGuid>ce275047-9d8e-4c6c-a05d-5dbca64d01f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>أغلق</value>
+      <webElementGuid>cf6b9ae5-e467-48ca-bca4-ed829f268a59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-9&quot;)/app-dialog-container[@class=&quot;ng-tns-c37-173 ng-trigger ng-trigger-dialogContainer ng-star-inserted rounded shadow&quot;]/app-predefined-dialog[@class=&quot;dialog-item ng-star-inserted&quot;]/div[@class=&quot;dialog-actions justify-content-center&quot;]/button[@class=&quot;btn btn-primary shadow ng-star-inserted&quot;]</value>
+      <webElementGuid>4516ba19-1b0b-4f35-b562-b724c878780c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-9']/app-dialog-container/app-predefined-dialog/div[2]/button</value>
+      <webElementGuid>9d72ec42-e526-404c-9d1a-857b91e5cdc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FCL/null/2022/4'])[2]/following::button[1]</value>
+      <webElementGuid>157d73d8-b1c6-43f4-a1b5-f2894c37778b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>00f21801-ac2e-40ac-aa0e-4030c7e530f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>ac0605d0-9565-4edf-b0d7-cf057dd6b90a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='أغلق']/parent::*</value>
+      <webElementGuid>29d2ec51-edf0-44de-b930-8bc26736072c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-predefined-dialog/div[2]/button</value>
+      <webElementGuid>e37dfe18-fa2e-4c3f-8c47-95f9cf8d0f4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'أغلق' or . = 'أغلق')]</value>
+      <webElementGuid>1b6ee7ea-9ed9-48a9-bc8b-ed553cb94018</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Accept 1st (right click)</name>
+   <tag></tag>
+   <elementGuidId>5668a398-9498-4cd9-a064-ba33c69186d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='إدارة التعليقات'])[1]/following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>795b093c-ba27-4fa1-9cce-586911614ce8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx-3</value>
+      <webElementGuid>58d464f1-22f1-4a47-baa2-4d39f2253606</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>موافقة</value>
+      <webElementGuid>c20899dd-2435-4f32-b983-169f56e5cce6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-7&quot;)/div[@class=&quot;position-fixed ng-star-inserted&quot;]/ul[@class=&quot;dropdown-menu show shadow-sm context-menu-item-list scale-0 transition top-left&quot;]/li[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;dropdown-item context-menu-item d-flex align-items-center justify-content-start px-2&quot;]/span[@class=&quot;mx-3&quot;]</value>
+      <webElementGuid>5a820ea8-cdd1-4f4b-9847-b7bcde7f1ce9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-7']/div/ul/li[7]/button/span</value>
+      <webElementGuid>cd3da136-00bf-48bf-b588-25d6e02b0747</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='أرسال إلى إدارات متعددة'])[1]/following::span[1]</value>
+      <webElementGuid>2d7b8b9b-34d8-4c9d-8182-f83be65066ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إدارة التعليقات'])[1]/following::span[2]</value>
+      <webElementGuid>5f1dc0ed-7fc1-4de1-a3b8-31a7c13cc9c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رفض'])[1]/preceding::span[1]</value>
+      <webElementGuid>6469c816-02cb-4989-9106-967fc336b169</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[2]</value>
+      <webElementGuid>da6cbbbb-f0d8-4687-a032-35c524557b97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/button/span</value>
+      <webElementGuid>a27f6edf-29d3-4dfe-85de-1cf48767da95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'موافقة' or . = 'موافقة')]</value>
+      <webElementGuid>62a989c5-ca88-4783-8068-e11abdae2b81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

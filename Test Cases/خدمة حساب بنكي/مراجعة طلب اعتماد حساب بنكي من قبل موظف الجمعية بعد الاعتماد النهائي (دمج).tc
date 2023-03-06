@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>مراجعة طلب اعتماد حساب بنكي من قبل موظف الجمعية بعد الاعتماد النهائي (دمج)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7e931f5-cc97-4bc0-a08c-0b3a80fc033a</testCaseGuid>
+</TestCaseEntity>

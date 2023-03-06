@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>تحديث طلب جمع تبرعات من موظف الجمعية</name>
+   <tag>Org</tag>
+   <comment></comment>
+   <testCaseGuid>1ef89da2-ddd2-4464-b343-4a59318e95d1</testCaseGuid>
+</TestCaseEntity>

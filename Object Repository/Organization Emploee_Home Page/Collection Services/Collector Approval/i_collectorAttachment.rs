@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_collectorAttachment</name>
+   <tag></tag>
+   <elementGuidId>65355295-026a-4aa9-b7f5-602a508f4cfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab/div/div[2]/collector-item/div/app-table/div/table/tbody/tr/td[6]/grid-actions/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-attachment</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>1248409c-bd3a-41ae-a4c2-a413b064ca72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-attachment</value>
+      <webElementGuid>6bd455d5-cdaf-4b21-836e-26149c542849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c129-64 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c129-64 ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/collector-item[1]/div[@class=&quot;row mt-2&quot;]/app-table[1]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;cdk-table table border border-1 ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;cdk-row ng-star-inserted&quot;]/td[@class=&quot;cdk-cell table-actions cdk-column-actions ng-star-inserted&quot;]/grid-actions[1]/div[@class=&quot;flex-row d-flex align-items-center&quot;]/button[@class=&quot;btn text-primary icon-btn&quot;]/i[@class=&quot;mdi mdi-attachment&quot;]</value>
+      <webElementGuid>725fbea5-e40a-4b06-9c64-77d68d556817</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab/div/div[2]/collector-item/div/app-table/div/table/tbody/tr/td[6]/grid-actions/div/button/i</value>
+      <webElementGuid>ad920b10-d96d-4ee1-a386-e5afe62c43ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//grid-actions/div/button/i</value>
+      <webElementGuid>d415e9ac-5afd-4157-a184-3909cf000e69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MapNavigator</name>
+   <tag></tag>
+   <elementGuidId>450aa684-df6e-417d-97a8-483f33e8604c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-1']/app-dialog-container/raca-maps-popup/div[2]/raca-maps/div/google-map/div/div/div/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b109613e-5461-4a24-98d6-259ad9e09e4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>To navigate, press the arrow keys.</value>
+      <webElementGuid>a60784b1-47bb-48b5-a0cd-6a29f1db7efa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-1&quot;)/app-dialog-container[@class=&quot;ng-tns-c40-47 ng-trigger ng-trigger-dialogContainer ng-star-inserted rounded shadow&quot;]/raca-maps-popup[@class=&quot;dialog-item ng-star-inserted&quot;]/div[@class=&quot;dialog-content d-flex flex-column&quot;]/raca-maps[@class=&quot;flex-fill&quot;]/div[@class=&quot;d-flex flex-column flex-fill ng-star-inserted&quot;]/google-map[@class=&quot;flex-fill&quot;]/div[@class=&quot;map-container&quot;]/div[1]/div[@class=&quot;gm-style&quot;]/div[2]/div[2]</value>
+      <webElementGuid>8c4af45e-7dce-43ea-9f10-8f724aa9b251</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-1']/app-dialog-container/raca-maps-popup/div[2]/raca-maps/div/google-map/div/div/div/div[2]/div[2]</value>
+      <webElementGuid>071de873-2ed5-4b77-b609-68d27f12446b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الخريطة'])[1]/following::div[53]</value>
+      <webElementGuid>82e6c484-cce1-4b81-bf9d-5afd23e12c95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v2.0.34'])[1]/following::div[61]</value>
+      <webElementGuid>f13ad4e3-cbf8-47d9-8010-717a6541c97e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='←'])[1]/preceding::div[7]</value>
+      <webElementGuid>ad0c3cd5-9bb1-4668-8129-33d0994bd44e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div[2]</value>
+      <webElementGuid>edc6e1eb-0390-41be-a9b3-9e77e52ee335</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'To navigate, press the arrow keys.' or . = 'To navigate, press the arrow keys.')]</value>
+      <webElementGuid>b072aa93-51a7-4d0f-9a12-cac98d6445d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

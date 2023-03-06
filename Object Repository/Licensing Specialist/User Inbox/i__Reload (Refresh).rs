@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__Reload (Refresh)</name>
+   <tag></tag>
+   <elementGuidId>2199db32-0a54-41fb-a1bf-31dea96acd06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-reload</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/app-user-inbox/div/div/app-table/div/table/thead/tr/th/table-header/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>dc078688-58d9-4cc1-95e8-24e5deefbaf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-reload</value>
+      <webElementGuid>24b45590-ba86-4b2f-bc02-9a3302c900de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;h-100 container-fluid p-3&quot;]/app-user-inbox[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/app-table[1]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;cdk-table table border border-1 ng-star-inserted&quot;]/thead[1]/tr[@class=&quot;cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;cdk-header-cell extra-header cdk-column-extra-header ng-star-inserted&quot;]/table-header[1]/div[@class=&quot;d-flex flex-row justify-content-start align-items-center bg-primary p-2 text-white&quot;]/div[1]/button[@class=&quot;btn icon-btn ng-star-inserted&quot;]/i[@class=&quot;mdi mdi-reload&quot;]</value>
+      <webElementGuid>5484cebe-7df4-4b67-967c-19e0e2c1411e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/app-user-inbox/div/div/app-table/div/table/thead/tr/th/table-header/div/div/button/i</value>
+      <webElementGuid>818c397a-aecc-4f4e-8734-7338dbf288fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table-header/div/div/button/i</value>
+      <webElementGuid>2d9762ff-cc40-4a8d-a133-a52cef96ea57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

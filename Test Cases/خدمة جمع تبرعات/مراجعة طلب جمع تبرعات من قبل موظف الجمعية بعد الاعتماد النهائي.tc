@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>مراجعة طلب جمع تبرعات من قبل موظف الجمعية بعد الاعتماد النهائي</name>
+   <tag>Org</tag>
+   <comment></comment>
+   <testCaseGuid>267c43e3-0875-4afb-a0c4-3584a64bf152</testCaseGuid>
+</TestCaseEntity>

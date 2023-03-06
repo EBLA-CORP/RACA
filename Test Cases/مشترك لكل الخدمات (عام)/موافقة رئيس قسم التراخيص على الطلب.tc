@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>موافقة رئيس قسم التراخيص على الطلب</name>
+   <tag>Licensing</tag>
+   <comment></comment>
+   <testCaseGuid>be687f19-2d5e-4020-a94c-c83806f215bc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>اعتماد طلب جمع تبرعات من مدير الجمعية</name>
+   <tag>Org</tag>
+   <comment></comment>
+   <testCaseGuid>cbb9e351-4e38-484e-941a-9dddaddee7c8</testCaseGuid>
+</TestCaseEntity>

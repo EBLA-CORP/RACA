@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Complete</name>
+   <tag></tag>
+   <elementGuidId>2456fdf6-9e42-49b1-b077-63a604ad5902</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e-service-wrapper']/div[2]/div/div/button[3]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9b1e2df9-d741-46db-8455-eca85199710f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ms-2</value>
+      <webElementGuid>34c04cff-cb12-46ef-97e8-bb792eeb39d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>أكتمال</value>
+      <webElementGuid>bb00c47b-836e-466e-bf7a-f15b0c46c3d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e-service-wrapper&quot;)/div[@class=&quot;row mt-4 mb-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;d-flex flex-row flex-wrap gap-2 justify-content-center&quot;]/button[@class=&quot;btn btn-primary ng-star-inserted&quot;]/div[@class=&quot;d-flex&quot;]/span[@class=&quot;ms-2&quot;]</value>
+      <webElementGuid>457ee234-b570-422d-8a27-47436eb4895a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e-service-wrapper']/div[2]/div/div/button[3]/div/span</value>
+      <webElementGuid>abcf170c-bba5-4960-abad-e381773a0c27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعفاء'])[1]/following::span[1]</value>
+      <webElementGuid>7c9011b1-f656-4ec0-aaab-3f3c3fff3dcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حفظ'])[1]/following::span[2]</value>
+      <webElementGuid>ca4af8f3-7ada-42e3-9bd5-2529c93d6459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الإجراءات'])[1]/preceding::span[1]</value>
+      <webElementGuid>502d4ca8-2161-4794-8ede-b2ac74946be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='طباعة'])[1]/preceding::span[2]</value>
+      <webElementGuid>e5b12c8d-4e5c-4039-9076-689d30da9faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]/div/span</value>
+      <webElementGuid>d85cb75b-a355-4d2d-a946-6da8cc117285</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'أكتمال' or . = 'أكتمال')]</value>
+      <webElementGuid>a70b0ba9-7a7a-41e6-891c-999d7aee813e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

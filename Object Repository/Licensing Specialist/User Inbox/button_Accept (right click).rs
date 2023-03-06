@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Accept (right click)</name>
+   <tag></tag>
+   <elementGuidId>e2f5337e-30f4-4ba6-851d-9530764ebac4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='إدارة المرفقات'])[1]/following::button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>62229c34-84e1-4ca2-9d58-dc4ca3e4a242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>46340c6d-aa03-454d-a1ea-9c2ee880a869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item context-menu-item d-flex align-items-center justify-content-start px-2</value>
+      <webElementGuid>9e57661c-1259-4e25-9f02-0a398376ce48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>موافقة</value>
+      <webElementGuid>f1125d04-3a5c-4048-818b-cbb02e6a84b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-1&quot;)/div[@class=&quot;position-fixed ng-star-inserted&quot;]/ul[@class=&quot;dropdown-menu show shadow-sm context-menu-item-list scale-0 transition top-left&quot;]/li[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;dropdown-item context-menu-item d-flex align-items-center justify-content-start px-2&quot;]</value>
+      <webElementGuid>e02f3031-0f61-4799-98a1-b31ae928ec11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-1']/div/ul/li[6]/button</value>
+      <webElementGuid>269ec439-b2bd-49e2-8e0f-967635a214f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إدارة التعليقات'])[1]/following::button[1]</value>
+      <webElementGuid>e6156c36-76e6-4d31-be9e-984fd8989a4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إدارة المرفقات'])[1]/following::button[2]</value>
+      <webElementGuid>afa2d61c-d476-422b-9534-9d0a0a48401e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رفض'])[1]/preceding::button[1]</value>
+      <webElementGuid>1b386e23-8443-4cef-9ac6-1506feb63e38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/button</value>
+      <webElementGuid>a7366866-e4e3-43ca-bbe7-8f20ad561577</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@href = '#' and (text() = 'موافقة' or . = 'موافقة')]</value>
+      <webElementGuid>6b51f53e-3a33-4d06-a2a3-a0064ccf5548</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

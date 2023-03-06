@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__Accept symbol (right click)</name>
+   <tag></tag>
+   <elementGuidId>025b61dc-d80b-4370-9771-b7ef3b31c794</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-check-bold.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-3']/div/ul/li[6]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3f09d409-cb38-4728-ac00-12e35a90a0a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-check-bold ng-star-inserted</value>
+      <webElementGuid>1d85786b-2a6f-4ebd-93b4-a3d77e41f593</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-3&quot;)/div[@class=&quot;position-fixed ng-star-inserted&quot;]/ul[@class=&quot;dropdown-menu show shadow-sm context-menu-item-list scale-0 transition top-left&quot;]/li[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;dropdown-item context-menu-item d-flex align-items-center justify-content-start px-2&quot;]/i[@class=&quot;mdi mdi-check-bold ng-star-inserted&quot;]</value>
+      <webElementGuid>667e05f4-4855-4026-b0a4-6e213398dda4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-3']/div/ul/li[6]/button/i</value>
+      <webElementGuid>46b007ea-7ae9-4e43-a5be-0f37b6de23bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إدارة التعليقات'])[1]/following::i[1]</value>
+      <webElementGuid>087845df-19ba-4b7b-94b6-eb56f02f7a1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إدارة المرفقات'])[1]/following::i[2]</value>
+      <webElementGuid>27579569-6b98-4275-a7b1-d404452400ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='موافقة'])[1]/preceding::i[1]</value>
+      <webElementGuid>9d1dbdee-7375-4159-adfe-8b1324e2d5b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إعادة'])[1]/preceding::i[2]</value>
+      <webElementGuid>993dd3cd-4da6-46e3-9749-b9295684a99b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/button/i</value>
+      <webElementGuid>ed2000a0-3485-4260-a047-a59807a4096f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

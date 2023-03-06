@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Logs</name>
+   <tag></tag>
+   <elementGuidId>765b1eeb-0a75-4c7b-aaa7-0dea0972c8a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='فتح'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9c9c82be-b528-4de1-8ce2-c5528df923a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx-3</value>
+      <webElementGuid>6b1a34eb-d319-4e51-af7b-663f9af5b8ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الإجراءات</value>
+      <webElementGuid>34ecb69c-f22a-4b67-b611-fbb509c26d71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-0&quot;)/div[@class=&quot;position-fixed ng-star-inserted&quot;]/ul[@class=&quot;dropdown-menu show shadow-sm context-menu-item-list scale-0 transition top-left&quot;]/li[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;dropdown-item context-menu-item d-flex align-items-center justify-content-start px-2&quot;]/span[@class=&quot;mx-3&quot;]</value>
+      <webElementGuid>6f9028b8-6a20-445a-b781-986a1c94dc24</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-0']/div/ul/li[2]/button/span</value>
+      <webElementGuid>46b4a73a-3a22-4fc2-9874-5304025f0c3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='فتح'])[1]/following::span[1]</value>
+      <webElementGuid>5497ee5c-dda6-4480-b51e-618aa4d0853b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v1.5.0-rc#8'])[1]/following::span[3]</value>
+      <webElementGuid>e34c8c69-79c1-443b-a9f8-0e28ef53046b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إدارة المرفقات'])[1]/preceding::span[1]</value>
+      <webElementGuid>387364e2-c6bd-4c80-9e82-2ee18fc437f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='طباعة'])[1]/preceding::span[2]</value>
+      <webElementGuid>b8984a69-3ce6-475b-acc8-190d050eba5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='الإجراءات']/parent::*</value>
+      <webElementGuid>8b664b40-3cbb-4728-aecd-80a8006ce884</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/button/span</value>
+      <webElementGuid>51304785-08f2-4316-8f0a-56beb7a1f005</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'الإجراءات' or . = 'الإجراءات')]</value>
+      <webElementGuid>56baebae-19e2-43fd-baaf-ec940db504d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

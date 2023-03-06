@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_license number field</name>
+   <tag></tag>
+   <elementGuidId>01589443-5348-4a69-a13a-649adf143f9b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-12.col-md-4.mb-4.ng-star-inserted > div.input-group > span.form-control.input-disabled</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e-service-wrapper']/case-info/div/div[2]/div[2]/div/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6ba382ee-027e-4538-9a7b-0b376a15cc7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control input-disabled</value>
+      <webElementGuid>8a44c77c-435a-4142-afbe-8c9a7a7a4d39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IBAA/911dd/2023/13</value>
+      <webElementGuid>288dad36-7cc2-413c-8d18-a4a9436f2b11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e-service-wrapper&quot;)/case-info[1]/div[@class=&quot;task-details&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-4 mb-4 ng-star-inserted&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;form-control input-disabled&quot;]</value>
+      <webElementGuid>6da3cc3c-8a2a-4535-b0bb-c132c9938453</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e-service-wrapper']/case-info/div/div[2]/div[2]/div/span[2]</value>
+      <webElementGuid>9b328baf-8fdd-4fba-8d15-47bf746648b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تم انشاء رقم رخصة'])[1]/following::span[2]</value>
+      <webElementGuid>0dd1eb76-b8b9-4f52-b8ba-df84e8bf4f94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعتماد نهائي'])[1]/following::span[2]</value>
+      <webElementGuid>6ece6f69-8e66-456d-bb83-1cbbf798c411</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='معلومات اساسية'])[1]/preceding::span[1]</value>
+      <webElementGuid>f6b5539b-9cda-432a-917c-0155b02f347b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الشروحات الخاصة'])[1]/preceding::span[1]</value>
+      <webElementGuid>c43ec6ac-47cb-4382-9ba8-ff17800ef305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='IBAA/911dd/2023/13']/parent::*</value>
+      <webElementGuid>688d4faa-3780-4726-9ba5-e62615ab3525</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/span[2]</value>
+      <webElementGuid>d73cb3c5-b929-4948-a513-01e41596b139</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'IBAA/911dd/2023/13' or . = 'IBAA/911dd/2023/13')]</value>
+      <webElementGuid>389bf1cf-1ed8-4b2a-b744-8d87f192483d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

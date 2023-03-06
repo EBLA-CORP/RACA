@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_addNewEmployee</name>
+   <tag></tag>
+   <elementGuidId>27544494-0124-4767-a8e9-2f3b8e489853</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.h6.m-0.text-primary.d-inline-block.me-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab[2]/div/div/div/div/button/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>9e09edd6-ec56-4e39-8c7f-326080db0b4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h6 m-0 text-primary d-inline-block me-2</value>
+      <webElementGuid>707da451-bd1d-405a-a880-9c37a17c0040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>إضافة موظفين</value>
+      <webElementGuid>7abffd0c-ed8b-4a47-83e8-da6f75540fa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c131-178 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c131-178 ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-12 mb-2 d-flex justify-content-between align-items-end ng-star-inserted&quot;]/div[1]/button[@class=&quot;btn btn-link outline-none d-flex align-items-center&quot;]/h1[@class=&quot;h6 m-0 text-primary d-inline-block me-2&quot;]</value>
+      <webElementGuid>e3fc1a67-25a3-45b9-ae21-253cbb47d61d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[2]/div/div/div/div/button/h1</value>
+      <webElementGuid>b5063004-31e5-4a4a-ad66-3cf797b68111</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الوصف'])[1]/following::h1[1]</value>
+      <webElementGuid>222ec114-c3c7-4ed9-975a-d370ef0bdfb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='جديد'])[1]/following::h1[1]</value>
+      <webElementGuid>86dc4af9-096a-47d1-b439-0c1b27bab962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رقم جواز السفر'])[1]/preceding::h1[1]</value>
+      <webElementGuid>51ae9045-889c-410c-ac18-91f202eb280b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رقم التعريف'])[1]/preceding::h1[1]</value>
+      <webElementGuid>d23ce675-5fe0-4211-914c-c810feb1ce28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='إضافة موظفين']/parent::*</value>
+      <webElementGuid>0368d477-0a28-4d8f-834c-e7757a3b1351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/h1</value>
+      <webElementGuid>f6aa649e-6975-4f8c-928c-6ff3a3766c01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'إضافة موظفين' or . = 'إضافة موظفين')]</value>
+      <webElementGuid>c458e045-fa31-4748-afd1-a60190cdf6e0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

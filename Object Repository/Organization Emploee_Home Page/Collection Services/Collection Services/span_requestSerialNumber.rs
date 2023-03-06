@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_requestSerialNumber</name>
+   <tag></tag>
+   <elementGuidId>4dabfc66-5ba9-4928-b821-e1a6a07e786b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e-service-wrapper']/case-info/div/div/div[3]/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d7eb1b6b-8392-4be6-9a95-8c3469c63281</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control input-disabled</value>
+      <webElementGuid>15fb16ee-b120-4c95-8f3c-53eba487b76a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COLN/911dd/2023/3</value>
+      <webElementGuid>6b85e1a5-5b9e-4269-a3dd-aca81aca04b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e-service-wrapper&quot;)/case-info[1]/div[@class=&quot;task-details&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-4 mb-4&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;form-control input-disabled&quot;]</value>
+      <webElementGuid>a37f76ee-0535-4f21-bf65-d855554aa564</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e-service-wrapper']/case-info/div/div/div[3]/div/span[2]</value>
+      <webElementGuid>81b37666-2549-4437-a98d-162f141c9978</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الرقم التسلسي'])[1]/following::span[2]</value>
+      <webElementGuid>418af7c1-82b6-4a0f-a061-c919985f5d68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jan 25, 2023'])[1]/following::span[2]</value>
+      <webElementGuid>ac3edcc3-5888-4653-af10-9a5b482153e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الحالة'])[1]/preceding::span[1]</value>
+      <webElementGuid>8629f6f6-af01-4449-9e39-1eecb6b1231d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='جديد'])[1]/preceding::span[1]</value>
+      <webElementGuid>b69cfaa2-3b45-4d5f-9f08-90b8ba539738</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='COLN/911dd/2023/3']/parent::*</value>
+      <webElementGuid>60c83a11-8770-49b8-b802-b16649053c23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span[2]</value>
+      <webElementGuid>39fdedd1-66c5-495c-9d87-8984cbfbedb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'COLN/911dd/2023/3' or . = 'COLN/911dd/2023/3')]</value>
+      <webElementGuid>efc4f393-f4de-49f5-843f-e58959b547d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

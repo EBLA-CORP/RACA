@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_DatePickerDay</name>
+   <tag></tag>
+   <elementGuidId>d0222cc9-7589-4410-8d3c-fe4d5e47346a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.myDpDayValue.myDpMarkCurrDay.myDpHighlight</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='d_3_6']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d1072191-f9c3-414e-87ad-4aa60584793d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>myDpDayValue myDpMarkCurrDay myDpHighlight</value>
+      <webElementGuid>223aa70f-0745-4498-b9de-76d85f2a0812</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Sunday, February 26, 2023</value>
+      <webElementGuid>3bb59518-21d9-42b9-9340-ab47d83409e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>26</value>
+      <webElementGuid>03df449d-2572-47f0-a898-933f20f214bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;d_3_6&quot;)/span[@class=&quot;myDpDayValue myDpMarkCurrDay myDpHighlight&quot;]</value>
+      <webElementGuid>2e811257-aba8-479c-8360-ecb060fb01c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='d_3_6']/span</value>
+      <webElementGuid>a75eabf3-bba7-42fe-a1b5-021529d1fe2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/following::span[28]</value>
+      <webElementGuid>9ef02c45-8cab-4342-bd0f-269fd494ef88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[28]</value>
+      <webElementGuid>274f60a3-eb51-461d-96c9-9c7fff2c9fe0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حقل مطلوب'])[15]/preceding::span[15]</value>
+      <webElementGuid>96ae0f61-a369-45f2-b73b-a7ba2b1708bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تاريخ انتهاء العمل'])[1]/preceding::span[16]</value>
+      <webElementGuid>c7682952-c86e-4ab1-8381-067a5bba9f53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='26']/parent::*</value>
+      <webElementGuid>2eedad0d-6e6f-451a-9ebe-325b8c5b7549</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[7]/span</value>
+      <webElementGuid>570f40dd-bcf8-48e4-8400-50fe4a201a0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '26' or . = '26')]</value>
+      <webElementGuid>9e5931d5-446d-4b75-a361-c9568ece934f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

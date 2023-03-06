@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__Reload (Refresh)</name>
+   <tag></tag>
+   <elementGuidId>32430a8c-6da6-4d7a-beba-653e63a9e500</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-reload</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/team-inbox/div/div/div/app-table/div/table/thead/tr/th/table-header/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@class = 'mdi mdi-reload']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>171e1228-5064-4c34-88bd-74303b228f21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-reload</value>
+      <webElementGuid>0e7d0bd8-b521-433c-8773-f9928367c368</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;h-100 container-fluid p-3&quot;]/team-inbox[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;table-responsive&quot;]/app-table[1]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;cdk-table table border border-1 ng-star-inserted&quot;]/thead[1]/tr[@class=&quot;cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;cdk-header-cell extra-header cdk-column-extra-header ng-star-inserted&quot;]/table-header[1]/div[@class=&quot;d-flex flex-row justify-content-start align-items-center bg-primary p-2 text-white&quot;]/div[1]/button[@class=&quot;btn icon-btn ng-star-inserted&quot;]/i[@class=&quot;mdi mdi-reload&quot;]</value>
+      <webElementGuid>fbf8e10c-f553-4107-bbac-5461e7f1cb86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/team-inbox/div/div/div/app-table/div/table/thead/tr/th/table-header/div/div/button/i</value>
+      <webElementGuid>adbc1075-9004-4d3e-8ec5-cfd532d840de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//table-header/div/div/button/i</value>
+      <webElementGuid>bd14d5cf-4e0d-459a-8480-fc66c364d54c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

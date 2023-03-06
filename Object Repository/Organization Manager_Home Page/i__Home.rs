@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__Home</name>
+   <tag></tag>
+   <elementGuidId>b8018e8e-4327-426a-a800-ed2ad23409f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.custom-icon-size.mdi-home.ng-tns-c55-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-back-logout-items']/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;home-back-logout-items&quot;)/button[@class=&quot;icon-btn ng-tns-c55-2&quot;]/i[@class=&quot;mdi custom-icon-size mdi-home ng-tns-c55-2&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>911bda8e-2026-474d-bb2b-5013a315bf4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi custom-icon-size mdi-home ng-tns-c55-2</value>
+      <webElementGuid>7149bdb5-4531-4cec-9417-0e1939d990d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-back-logout-items&quot;)/button[@class=&quot;icon-btn ng-tns-c55-2&quot;]/i[@class=&quot;mdi custom-icon-size mdi-home ng-tns-c55-2&quot;]</value>
+      <webElementGuid>20e3b9ca-658c-4ccd-8b38-a0fa1ecb91ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-back-logout-items']/button[2]/i</value>
+      <webElementGuid>8369eb09-25d5-45d7-a040-df64072ab235</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/i</value>
+      <webElementGuid>d4a1f927-d931-4bfe-8bb4-5cdccd922808</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

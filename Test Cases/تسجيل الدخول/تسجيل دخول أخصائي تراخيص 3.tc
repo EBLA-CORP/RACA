@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>تسجيل دخول أخصائي تراخيص 3</name>
+   <tag>Licensing</tag>
+   <comment></comment>
+   <testCaseGuid>ab4b1fe6-d2f5-460a-a8e2-8fdc905214d6</testCaseGuid>
+</TestCaseEntity>

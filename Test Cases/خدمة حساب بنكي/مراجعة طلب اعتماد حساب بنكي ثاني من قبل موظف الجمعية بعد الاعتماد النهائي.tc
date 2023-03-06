@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>مراجعة طلب اعتماد حساب بنكي ثاني من قبل موظف الجمعية بعد الاعتماد النهائي</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36bf5700-9e21-4f0c-8ad1-4c77da7db519</testCaseGuid>
+</TestCaseEntity>

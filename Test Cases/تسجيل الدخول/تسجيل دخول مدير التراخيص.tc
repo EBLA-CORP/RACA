@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>تسجيل دخول مدير التراخيص</name>
+   <tag>Licensing</tag>
+   <comment></comment>
+   <testCaseGuid>6df8a687-06a2-4ebb-914d-915b6308314e</testCaseGuid>
+</TestCaseEntity>

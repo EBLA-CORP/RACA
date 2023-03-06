@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_addCollector</name>
+   <tag></tag>
+   <elementGuidId>336fc390-eb4c-4595-8fec-270de08c6e48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab/div/div[2]/collector-item/form/fieldset/div[5]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>569e7afc-8687-4ac0-bfa5-6d97eef51751</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary ng-star-inserted</value>
+      <webElementGuid>9b76b12e-e3dd-4420-b48a-8b9d542e6394</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>إضافة</value>
+      <webElementGuid>e3c1f3d4-0db4-4c6d-b64c-d5a8fab9b153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c129-64 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c129-64 ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/collector-item[1]/form[@class=&quot;ng-pristine ng-invalid ng-star-inserted ng-touched&quot;]/fieldset[@class=&quot;border border-1 rounded-1 p-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;d-flex align-items-center justify-content-center gap-2&quot;]/button[@class=&quot;btn btn-primary ng-star-inserted&quot;]</value>
+      <webElementGuid>5ecc244a-c99a-49a8-9397-59af61665687</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab/div/div[2]/collector-item/form/fieldset/div[5]/div/button</value>
+      <webElementGuid>99db66f5-a13c-4f79-bed1-0cd714fd4e5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تاريخ نهاية الترخيص'])[1]/following::button[1]</value>
+      <webElementGuid>a90285e0-f368-4a0e-a8ad-75b5bb4a2a82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حقل مطلوب'])[7]/following::button[1]</value>
+      <webElementGuid>d5162edd-0ed7-4bb7-b6a2-42ed9db27944</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إلغاء'])[1]/preceding::button[1]</value>
+      <webElementGuid>d6c7ca4f-4006-4b9e-8320-2c05ae05c829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رقم التعريف'])[1]/preceding::button[2]</value>
+      <webElementGuid>0c90df2d-85c8-4d0e-befc-ca6f28eeffb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='إضافة']/parent::*</value>
+      <webElementGuid>732d6ba8-0103-42b6-a60d-1d9b97826cec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/button</value>
+      <webElementGuid>f5b520f4-8c0e-4126-b78e-759d70c653d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'إضافة' or . = 'إضافة')]</value>
+      <webElementGuid>22b0e9e2-b5a8-404d-aa22-0c8c5d778dbf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
