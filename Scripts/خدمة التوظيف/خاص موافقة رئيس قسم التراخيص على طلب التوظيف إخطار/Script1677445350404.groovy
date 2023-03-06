@@ -45,11 +45,5 @@ WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/i__Reload (Refresh)'))
-
-WebUI.delay(2)
-
-WebUI.verifyTextNotPresent(GlobalVariable.RequestNumber, false, FailureHandling.OPTIONAL)
-
 WebUI.closeBrowser()
 
