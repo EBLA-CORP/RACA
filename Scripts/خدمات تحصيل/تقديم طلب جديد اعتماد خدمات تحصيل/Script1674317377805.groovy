@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), '�
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/mark_Collection Services Approval'))
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'))
 
 WebUI.delay(5)
 
@@ -43,9 +43,6 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input__requestType'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input__requestType'), 
-    Keys.chord(Keys.TAB))
-
 WebUI.delay(2)
 
 'نوع الترخيص'
@@ -55,9 +52,6 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_licenseType'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_licenseType'), 
-    Keys.chord(Keys.TAB))
-
 WebUI.delay(2)
 
 'نوع خدمة التحصيل) تصنيف الطلب)'
@@ -66,9 +60,6 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_requestClassification'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_requestClassification'), 
-    Keys.chord(Keys.TAB))
 
 WebUI.delay(2)
 

@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 'تسجيل دخول مدير جمعية'
 WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول مدير جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/a_Team Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_team inbox'))
 
 WebUI.delay(2)
 
@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/i__Reload 
 
 WebUI.delay(2)
 
-WebUI.rightClick(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.delay(2)
 
@@ -40,32 +40,32 @@ WebUI.click(findTestObject('Organization Manager_Home Page/i__Home'))
 
 WebUI.delay(GlobalVariable.DelayTime3)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/a_User Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_user inbox'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/i__Reload (Refresh)'))
+WebUI.click(findTestObject('Licensing Manager/User Inbox/i__Reload (Refresh)'))
 
 WebUI.delay(2)
 
-WebUI.rightClick(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/span_Complete (accept request, right click window)'))
+WebUI.click(findTestObject('Licensing Manager/User Inbox/span_Complete (accept request, right click window)'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Organization Manager_Home Page/User Inbox/textarea__Complete popup window'), 'اكتمال')
+WebUI.setText(findTestObject('Licensing Manager/User Inbox/textarea__Complete popup window'), 'اكتمال')
 
-WebUI.sendKeys(findTestObject('Organization Manager_Home Page/User Inbox/textarea__Complete comment'), Keys.chord(Keys.TAB))
+WebUI.sendKeys(findTestObject('Licensing Manager/User Inbox/textarea__Complete comment'), Keys.chord(Keys.TAB))
 
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/button_Complete (final accept popup window)_for right click'), 
+WebUI.click(findTestObject('Licensing Manager/User Inbox/button_Complete (final accept popup window)_for right click'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/i__Reload (Refresh)'))
+WebUI.click(findTestObject('Licensing Manager/User Inbox/i__Reload (Refresh)'))
 
 WebUI.delay(2)
 
@@ -84,7 +84,7 @@ WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/butto
 
 WebUI.delay(5)
 
-WebUI.rightClick(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/span_Logs'))
 

@@ -7,11 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'أكتمال' or . = 'أكتمال')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='e-service-wrapper']/div[2]/div/div/button[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='اعفاء'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>22988b2e-d6d8-4c23-9e65-a6382073a698</webElementGuid>
+      <webElementGuid>7e4cf692-3260-4390-affa-6d4b753dcbbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary ng-star-inserted</value>
-      <webElementGuid>c5680d5d-7e36-485f-90fd-6f1792eb6ac3</webElementGuid>
+      <webElementGuid>b3f45fe9-e38f-43d3-a658-f5699c9d418f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>أكتمال</value>
-      <webElementGuid>276f2fa7-9741-481b-899c-9efe581ba253</webElementGuid>
+      <webElementGuid>3d16fe35-1fd2-4970-98b9-b84fd87112f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;e-service-wrapper&quot;)/div[@class=&quot;row mt-4 mb-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;d-flex flex-row flex-wrap gap-2 justify-content-center&quot;]/button[@class=&quot;btn btn-primary ng-star-inserted&quot;]</value>
-      <webElementGuid>c27b3572-fa4e-42c3-9111-3c78aff2771a</webElementGuid>
+      <webElementGuid>2913b9de-e3d2-42ee-b4fe-67cf5071c724</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='e-service-wrapper']/div[2]/div/div/button[3]</value>
-      <webElementGuid>a992d63d-16c2-4fd6-9127-87eaf38191af</webElementGuid>
+      <webElementGuid>bf100a6d-5c00-4d59-908b-033c3a9f61f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اعفاء'])[1]/following::button[1]</value>
-      <webElementGuid>d5129400-cce4-451f-9639-03d203de2f39</webElementGuid>
+      <webElementGuid>e0a343bc-70d1-4a3d-91d6-bbdd53c3dc37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='حفظ'])[1]/following::button[2]</value>
-      <webElementGuid>d867edbf-e5ee-4e67-aa5b-55871e093bed</webElementGuid>
+      <webElementGuid>5b2eb8ef-98c6-4c59-9e82-110c8a7d00d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='إعادة'])[1]/preceding::button[1]</value>
-      <webElementGuid>af8825b7-528e-44db-b549-f7fde0aa1bab</webElementGuid>
+      <webElementGuid>e96cf2d0-bc1b-493e-9641-4136ed7f0331</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/button[3]</value>
-      <webElementGuid>8c011f41-1062-4974-bc53-b9beb0797dbd</webElementGuid>
+      <webElementGuid>2e1dbfb3-8f3a-4838-815f-0f2e3b169386</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'أكتمال' or . = 'أكتمال')]</value>
-      <webElementGuid>de07bb8a-c037-4629-ab9a-b3485c399df3</webElementGuid>
+      <webElementGuid>c7736f59-424b-4da9-9c34-47a4b39bc1b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

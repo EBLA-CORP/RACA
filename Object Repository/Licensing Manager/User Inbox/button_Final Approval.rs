@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Final Approval</name>
+   <tag></tag>
+   <elementGuidId>cf81770f-e130-417c-91ff-271217e6fcef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e-service-wrapper']/div[2]/div/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dcc8bb95-e28e-4444-80fa-037283167c32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary ng-star-inserted</value>
+      <webElementGuid>841cff3e-a6e6-429f-9925-a4ab4509c35f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>اعتماد نهائي</value>
+      <webElementGuid>0eabf5dc-f22c-456c-a0a3-76959f4ebccb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e-service-wrapper&quot;)/div[@class=&quot;mt-4 mb-2&quot;]/div[@class=&quot;d-flex flex-row flex-wrap gap-2 justify-content-center ng-star-inserted&quot;]/button[@class=&quot;btn btn-primary ng-star-inserted&quot;]</value>
+      <webElementGuid>42469f91-e8d2-495f-b6f3-a61668d20435</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e-service-wrapper']/div[2]/div/button[2]</value>
+      <webElementGuid>f5f08fb9-d798-4fe7-9758-2b7d9a46b684</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعفاء'])[1]/following::button[1]</value>
+      <webElementGuid>ed5c5547-7e2b-4791-a501-c87669f671c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- under construction'])[1]/following::button[2]</value>
+      <webElementGuid>0e43445c-3930-4012-932a-d0e27bd5ffa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إعادة'])[1]/preceding::button[1]</value>
+      <webElementGuid>557d66bc-cba9-49dc-b9f0-4239ca9b0350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//e-service-component-wrapper/div/div[2]/div/button[2]</value>
+      <webElementGuid>3314234f-97a5-4754-9fdf-8979596f344a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'اعتماد نهائي' or . = 'اعتماد نهائي')]</value>
+      <webElementGuid>e1b86e4f-38e4-42f0-b2e6-4712a32831ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -24,7 +24,9 @@ WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول م�
 'خدمات التحصيل'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'جمع تبرعات')
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/mark_Fundraising'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -32,10 +34,7 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__requestType'), 'جديد')
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__requestType'), Keys.chord(
-        Keys.TAB))
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__requestType'), Keys.chord(
-        Keys.TAB))
+        Keys.ENTER))
 
 WebUI.delay(2)
 
@@ -45,9 +44,6 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__licenseDurationType'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__licenseDurationType'), 
-    Keys.chord(Keys.TAB))
 
 WebUI.delay(2)
 
@@ -62,19 +58,19 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services
 WebUI.delay(2)
 
 'مقدمة للقناة/الوسائط الجديدة'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/textarea__about'), 'نص')
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/textarea__about'), 'كاتالون')
 
 WebUI.delay(2)
 
 'تقييم المخاطر للقناة / وسائل الإعلام الجديدة'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/textarea__riskAssessment'), 
-    'نص')
+    'كاتالون')
 
 WebUI.delay(2)
 
 'كيف تعمل القناة / الوسائط الجديدة'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/textarea__workingMechanism'), 
-    'نص')
+    'كاتالون')
 
 WebUI.delay(2)
 
@@ -101,7 +97,7 @@ WebUI.verifyElementClickable(findTestObject('Organization Emploee_Home Page/Coll
 
 WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/button_Send (Launch)'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'التأكد من إرسال الطلب'
 WebUI.verifyElementNotClickable(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/button_Send (Launch)'), 

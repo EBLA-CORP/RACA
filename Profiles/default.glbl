@@ -145,7 +145,7 @@
       <name>DelayTime2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>وقت انتظار انتقال الطلب من بريد المجموعة بريد المستخدم</description>
+      <description>وقت انتظار إنجاز الإجراء على الطلب</description>
       <initValue>10</initValue>
       <name>DelayTime3</name>
    </GlobalVariableEntity>
@@ -193,5 +193,10 @@
       <description>رقم تعريف الموظف الديناميكي</description>
       <initValue>''</initValue>
       <name>Employee_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اليوم (رقماً) لتاريخ الوقت الحالي (ديناميكي)</description>
+      <initValue>''</initValue>
+      <name>CalendarDay</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -6,12 +6,12 @@
    <elementGuidId>dfcc031a-e7b6-499d-a013-f96f4470e134</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='بريد المستخدم'])[2]/following::i[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>i.mdi.mdi-reload</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='unread messages'])[1]/preceding::i[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

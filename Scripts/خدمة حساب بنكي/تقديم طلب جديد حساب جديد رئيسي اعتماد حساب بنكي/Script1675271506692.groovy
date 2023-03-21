@@ -16,6 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+
+def date = new Date()
+
+def day = date[Calendar.DAY_OF_MONTH]
+
+GlobalVariable.CalendarDay = String.valueOf(day)
 
 'تسجيل دخول موظف جمعية'
 WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول موظف جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -23,8 +30,9 @@ WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول م�
 'خدمات التحصيل'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'إعتماد حساب بنك داخلي')
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/mark_Internal Bank Account Approval'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -125,7 +133,7 @@ WebUI.verifyElementClickable(findTestObject('Organization Emploee_Home Page/Proj
 
 WebUI.click(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/button_Launch (send)'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'التأكد من إرسال الطلب'
 WebUI.verifyElementNotClickable(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/button_Launch (send)'), 

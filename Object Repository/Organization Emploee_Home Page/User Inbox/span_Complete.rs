@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='e-service-wrapper']/div[2]/div/div/button[3]/div/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='اعفاء'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -16,10 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+
+def date = new Date()
+
+def day = date[Calendar.DAY_OF_MONTH]
+
+GlobalVariable.CalendarDay = String.valueOf(day)
 
 Random rnd = new Random()
 
-randomNumber = (10000000000 + rnd.nextInt())
+randomNumber = (100000000000 + rnd.nextInt())
 
 'حفظ الرقم العشوائي وإعطاؤه لمتغير (رقم الحساب الديناميكي)'
 GlobalVariable.Employee_ID = String.valueOf(randomNumber)
@@ -30,9 +37,9 @@ WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول م�
 'خدمة طلبات التوظيف'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'طلبات التوظيف')
 
-WebUI.mouseOver(findTestObject('Organization Emploee_Home Page/Employment/mark_Employment'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/i-addNewRequest'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -47,19 +54,19 @@ WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/h1_addNewE
 WebUI.delay(3)
 
 'نوع التعريف'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_ID Type'), 'هوية')
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_ID Type'), 'جواز سفر')
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_ID Type'), Keys.chord(Keys.ENTER))
 
 'رقم التعريف'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__identificationNumber'), GlobalVariable.Employee_ID)
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__passportNumber'), GlobalVariable.Employee_ID)
 
 'تاريخ انتهاء صلاحية رقم التعريف'
 WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/div__ExpIdPass'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/span_DatePickerDay'))
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'))
 
 'الاسم بالعربية'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__arabicName'), 'موظف كاتالون')
@@ -79,6 +86,8 @@ WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_g
 
 'رقم التلفون'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__phone'), '0971')
+
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__jobNumber'), GlobalVariable.Employee_ID)
 
 'المجموعة الوظيفية'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_functionalGroup'), 'الوظائف القياديه')
@@ -121,7 +130,7 @@ WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/div__workS
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/span_DatePickerDay'))
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'))
 
 WebUI.delay(2)
 

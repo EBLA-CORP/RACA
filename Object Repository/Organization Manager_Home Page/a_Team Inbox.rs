@@ -10,22 +10,22 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '#/home/team-inbox' and (text() = 'بريد المجموعة' or . = 'بريد المجموعة')]</value>
+         <value>//a[@href = '#/home/team-inbox' and (text() = 'بريد المجموعة' or . = 'بريد المجموعة')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='بحث الخدمات'])[2]/preceding::a[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d3932ff8-67a6-4275-9173-cab3e02389ed</webElementGuid>
+      <webElementGuid>f75278c6-f8e4-4730-b164-f4aee9d6e90e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>service-title my-2 ng-tns-c334-4</value>
-      <webElementGuid>d6450743-9d13-4ec2-91d3-47fdc2248110</webElementGuid>
+      <webElementGuid>88affc5b-cc00-434f-982f-62039cc1ab6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#/home/team-inbox</value>
-      <webElementGuid>cf9dc4c0-6139-42de-ab7c-9bab746bb903</webElementGuid>
+      <webElementGuid>df5b98ba-a987-4cf7-8054-4f81fd433249</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>بريد المجموعة</value>
-      <webElementGuid>51936790-bb66-420a-bb22-917a3efad3e7</webElementGuid>
+      <webElementGuid>658c66dd-be14-44c6-90be-4eb3d37b3851</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content&quot;)/div[@class=&quot;h-100 container-fluid p-3&quot;]/app-user-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row pt-2&quot;]/div[@class=&quot;col d-flex flex-column&quot;]/app-service-list[@class=&quot;ng-tns-c334-4 ng-star-inserted&quot;]/ul[@class=&quot;services-list d-flex flex-row flex-wrap justify-content-center ng-tns-c334-4 ng-trigger ng-trigger-homeRouterAnimation&quot;]/li[@class=&quot;service-item p-2 m-2 flex-shrink-0 d-flex flex-column align-items-center ng-tns-c334-4 ng-star-inserted&quot;]/a[@class=&quot;service-title my-2 ng-tns-c334-4&quot;]</value>
-      <webElementGuid>d293a5e4-89cf-45a7-82ec-cb33bd5ec49e</webElementGuid>
+      <webElementGuid>881e0cc8-a087-4494-8d38-6448299b5b3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content']/div/app-user-home/div/div/app-service-list/ul/li[2]/a</value>
-      <webElementGuid>68b32dda-8a1c-4a5b-b5f8-10a7fdfe0685</webElementGuid>
+      <webElementGuid>fe665bcd-650c-4d93-899c-716ce84765ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'بريد المجموعة')]</value>
-      <webElementGuid>718a02f0-fe68-4c4b-b793-4307e963bcd4</webElementGuid>
+      <webElementGuid>18d537fb-a2b1-4241-bbb8-9e2bb9ddef68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='بريد المستخدم'])[2]/following::a[1]</value>
-      <webElementGuid>3c055075-206e-4510-9a26-e7573a1a476e</webElementGuid>
+      <webElementGuid>a6ab0f90-2d2f-4b1e-b5c0-cfabcc16408c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='عام'])[1]/following::a[2]</value>
-      <webElementGuid>22c5012f-c703-4197-a642-80e982b4041e</webElementGuid>
+      <webElementGuid>2c52ef3d-bd52-40c4-8d3f-11f2a87c8d1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='سندي'])[2]/preceding::a[1]</value>
-      <webElementGuid>ebd9ef1e-d246-4cd9-9e39-bfc7622d534b</webElementGuid>
+      <webElementGuid>db53ef54-fbae-4097-831e-e221011f9bc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='بحث الخدمات'])[2]/preceding::a[2]</value>
-      <webElementGuid>8dbe78f5-a84e-4d02-99e9-a37aed044310</webElementGuid>
+      <webElementGuid>3beef7cd-79ee-4cab-90d0-27fd073a896f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#/home/team-inbox')])[2]</value>
-      <webElementGuid>b954b548-f6aa-4436-b948-b00aa4e03495</webElementGuid>
+      <webElementGuid>0e35793f-e17d-451c-a851-bcb1f81b4876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-service-list/ul/li[2]/a</value>
-      <webElementGuid>70197875-8808-457f-8296-8ffed64b8581</webElementGuid>
+      <webElementGuid>58395851-6b82-4934-93fc-dccf79621ea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#/home/team-inbox' and (text() = 'بريد المجموعة' or . = 'بريد المجموعة')]</value>
-      <webElementGuid>041397a0-4387-4c2c-b24d-a08a6088bbe8</webElementGuid>
+      <webElementGuid>b9bbc330-f9d6-4757-9f2f-04ec00596f52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

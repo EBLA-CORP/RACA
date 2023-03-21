@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'Ø
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/Collector Approval/mark_Collector Approval (in arabic)'))
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'))
 
 WebUI.delay(5)
 

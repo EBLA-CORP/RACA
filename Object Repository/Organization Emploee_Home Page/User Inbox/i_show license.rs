@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_show license</name>
+   <tag></tag>
+   <elementGuidId>e2ad9264-b456-4a53-9dc5-7968cd7e73b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-eye.text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e-service-wrapper']/case-info/div/div[2]/div[2]/div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0b8c0f4b-426e-429e-ba64-507c9a2e81fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-eye text-primary</value>
+      <webElementGuid>bfeace15-599b-4841-8fc3-d4346850fc03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e-service-wrapper&quot;)/case-info[1]/div[@class=&quot;task-details&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-4 mb-4 ng-star-inserted&quot;]/div[@class=&quot;input-group&quot;]/a[@class=&quot;input-group-text&quot;]/i[@class=&quot;mdi mdi-eye text-primary&quot;]</value>
+      <webElementGuid>48e17071-65c6-446e-a04d-8ce93d91cf15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e-service-wrapper']/case-info/div/div[2]/div[2]/div/a/i</value>
+      <webElementGuid>37b55f3b-fe49-4257-b65f-f4df79b80284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EMP/911dd/2023/8'])[1]/following::i[1]</value>
+      <webElementGuid>7e6de108-97d0-4afc-8291-be82feef9121</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تم انشاء رقم رخصة'])[1]/following::i[2]</value>
+      <webElementGuid>0ce5dcb8-30f5-4056-95b8-7d92796a2eb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='معلومات اساسية'])[1]/preceding::i[1]</value>
+      <webElementGuid>a1695a5d-7389-4475-a51f-2a108bfc47b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='بيانات الموظف'])[1]/preceding::i[1]</value>
+      <webElementGuid>2f79e7ba-466a-4778-b836-e01359258716</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>d4facc69-e8d5-4534-905b-1057285fb071</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

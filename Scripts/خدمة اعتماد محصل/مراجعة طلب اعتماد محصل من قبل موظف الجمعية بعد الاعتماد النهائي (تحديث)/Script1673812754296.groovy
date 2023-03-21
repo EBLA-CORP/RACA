@@ -19,37 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول موظف جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/span_Team Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_team inbox'))
 
 WebUI.delay(3)
 
-WebUI.rightClick(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.click(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Team Inbox/i__Claim symbol (right click)'))
+WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Claim'))
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Team Inbox/i__Refresh (reload)'))
-
-WebUI.delay(3)
-
-WebUI.verifyTextNotPresent(GlobalVariable.RequestNumber, false, FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Organization Emploee_Home Page/icon__Home (Arabic UI)'))
-
-WebUI.delay(GlobalVariable.DelayTime3)
-
-WebUI.click(findTestObject('Organization Emploee_Home Page/a_User Inbox'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Organization Emploee_Home Page/User Inbox/i__Refresh (reload)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
-
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject('Organization Emploee_Home Page/User Inbox/span_Status field'), 'اعتماد نهائي', FailureHandling.OPTIONAL)
 
@@ -73,17 +53,15 @@ WebUI.verifyTextPresent('تحديث', false, FailureHandling.OPTIONAL)
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/User Inbox/span_Complete'))
+WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Complete'))
 
 WebUI.setText(findTestObject('Organization Emploee_Home Page/User Inbox/textarea__Complete comment'), 'مغلق')
+
+WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
 
 WebUI.delay(5)
-
-WebUI.click(findTestObject('Organization Emploee_Home Page/User Inbox/i__Refresh (reload)'))
-
-WebUI.delay(3)
 
 WebUI.verifyTextNotPresent(GlobalVariable.RequestNumber, false, FailureHandling.OPTIONAL)
 

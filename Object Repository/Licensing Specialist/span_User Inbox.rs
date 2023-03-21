@@ -10,19 +10,23 @@
          <value>span.flex-grow-1.sidebar-menu-item-text.text-truncate.ng-tns-c54-3</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//span[@title = 'بريد المستخدم' and (text() = 'بريد المستخدم' or . = 'بريد المستخدم')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='الخدمات الالكترونية'])[1]/following::span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1f156345-48bd-4c16-970a-6defe2d8d130</webElementGuid>
+      <webElementGuid>892af582-0399-47bc-9dcc-b80e0b16a53b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex-grow-1 sidebar-menu-item-text text-truncate ng-tns-c54-3</value>
-      <webElementGuid>af725875-75b8-41a0-a986-058b1f04380b</webElementGuid>
+      <webElementGuid>dd131c00-9c02-498d-959f-ebd87d339df0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>title</name>
       <type>Main</type>
       <value>بريد المستخدم</value>
-      <webElementGuid>50fe2876-86d1-47db-abe3-670296c270d6</webElementGuid>
+      <webElementGuid>b788f0dd-ffd5-4983-95ce-bf37c29f9b25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>بريد المستخدم</value>
-      <webElementGuid>098e0622-d89e-484e-907a-e6059d61bf7a</webElementGuid>
+      <webElementGuid>5b814fcf-cdfd-48fa-8ad6-a33178abfec4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu-item-list&quot;)/app-sidebar-menu-item-list[@class=&quot;ng-tns-c55-2 ng-tns-c54-3 ng-star-inserted&quot;]/ul[@class=&quot;ng-tns-c54-3 level-1 sidebar-menu-list&quot;]/li[@class=&quot;sidebar-menu-item ng-tns-c54-3 parent-menu-item ng-trigger ng-trigger-expendCollapse ng-star-inserted active&quot;]/a[@class=&quot;d-flex flex-row align-items-center overflow-hidden ng-tns-c54-3 justify-content-center&quot;]/span[@class=&quot;flex-grow-1 sidebar-menu-item-text text-truncate ng-tns-c54-3&quot;]</value>
-      <webElementGuid>d60d3394-3ec0-4538-b293-831f2edb56eb</webElementGuid>
+      <webElementGuid>a77e5419-c47a-443b-ab26-ae705c138ee8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='menu-item-list']/app-sidebar-menu-item-list/ul/li/a[2]/span</value>
-      <webElementGuid>141c19c0-a633-411c-9026-cef1347c05be</webElementGuid>
+      <webElementGuid>5d014f7a-8ea3-448b-9b02-71d9aa31f428</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='الخدمات الالكترونية'])[1]/following::span[2]</value>
-      <webElementGuid>d5470910-81e3-4cc3-b9e6-689d586065ca</webElementGuid>
+      <webElementGuid>6124605d-09ee-457d-9809-2caf9e5cfbf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::span[2]</value>
-      <webElementGuid>50737912-b12f-4711-b7e5-310b8d7a4d0a</webElementGuid>
+      <webElementGuid>b15d7edb-84b4-4f6b-b0e6-045af748e54f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='بريد المجموعة'])[1]/preceding::span[2]</value>
-      <webElementGuid>ec9a5215-40bf-4fb7-9b8c-ec9c316c65b0</webElementGuid>
+      <webElementGuid>f79aa8ef-3998-49e5-b193-a8786d655994</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='سندي'])[1]/preceding::span[3]</value>
-      <webElementGuid>a4720ac3-f528-4acd-b2ea-4bb366da2936</webElementGuid>
+      <webElementGuid>278eb34f-172f-4521-865d-9e90f9ab0843</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='بريد المستخدم']/parent::*</value>
-      <webElementGuid>beb9c422-9337-4842-9688-1516cce807d4</webElementGuid>
+      <webElementGuid>26e975e2-ce17-4f6b-921a-6fb51747bec7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]/span</value>
-      <webElementGuid>daccc0b7-8742-4fba-be4b-10193f2d38ba</webElementGuid>
+      <webElementGuid>7f8f0725-f4c4-4793-90ea-175b6d1eaea1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@title = 'بريد المستخدم' and (text() = 'بريد المستخدم' or . = 'بريد المستخدم')]</value>
-      <webElementGuid>234cd3ef-ef81-4a00-85b7-a3d15ae909a5</webElementGuid>
+      <webElementGuid>9600a432-c23f-47e2-a417-2fb6f5210e2e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

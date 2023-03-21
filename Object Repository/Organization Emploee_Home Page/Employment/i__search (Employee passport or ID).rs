@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__search (Employee passport or ID)</name>
+   <tag></tag>
+   <elementGuidId>be64ac4d-b5b1-4319-ad28-4c57903263c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-file-search.text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab[2]/div/div/div/form/div[3]/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ec86b2de-574d-4240-9afc-623682f30b7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-file-search text-primary</value>
+      <webElementGuid>130e1707-56d3-46a3-8c5a-16b9cfddaff6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c131-42 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c131-42 ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-12 mb-2 d-flex justify-content-between align-items-end ng-star-inserted&quot;]/form[@class=&quot;d-flex align-items-end ng-valid ng-star-inserted ng-touched ng-dirty&quot;]/div[@class=&quot;ms-3&quot;]/button[@class=&quot;input-group-text&quot;]/i[@class=&quot;mdi mdi-file-search text-primary&quot;]</value>
+      <webElementGuid>6f573635-9b4a-4ee4-9338-cf07ca99e7cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[2]/div/div/div/form/div[3]/button/i</value>
+      <webElementGuid>ff564356-b3ed-41d0-9c26-c0c63ecf0144</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رقم التعريف'])[1]/following::i[1]</value>
+      <webElementGuid>993a4ce4-502d-494f-9bb9-37c76b9f7cc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رقم جواز السفر'])[1]/following::i[1]</value>
+      <webElementGuid>887e0cc2-b1ef-4a6d-8667-357c9bc8035f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الاسم بالعربية'])[1]/preceding::i[1]</value>
+      <webElementGuid>801c2937-08c0-41fd-b709-05fd8c414dde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الإسم بالانجليزي'])[1]/preceding::i[1]</value>
+      <webElementGuid>3d34a5be-c270-4946-982f-f65dd8178592</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/i</value>
+      <webElementGuid>663b6c8e-ddfb-4292-abe5-b18ba0c73235</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

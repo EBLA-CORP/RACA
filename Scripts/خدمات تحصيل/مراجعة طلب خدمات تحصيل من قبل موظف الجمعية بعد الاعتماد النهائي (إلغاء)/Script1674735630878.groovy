@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول موظف جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/span_Team Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_team inbox'))
 
 WebUI.delay(3)
 
-WebUI.rightClick(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.delay(2)
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Organization Emploee_Home Page/icon__Home (Arabic UI
 
 WebUI.delay(GlobalVariable.DelayTime3)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/a_User Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_user inbox'))
 
 WebUI.delay(2)
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Organization Emploee_Home Page/User Inbox/i__Refresh
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.click(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.delay(10)
 
@@ -71,7 +71,7 @@ WebUI.verifyTextPresent(GlobalVariable.CollectionServicesType, false, FailureHan
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/User Inbox/span_Complete'))
+WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Complete'))
 
 WebUI.setText(findTestObject('Organization Emploee_Home Page/User Inbox/textarea__Complete comment'), 'مغلق')
 

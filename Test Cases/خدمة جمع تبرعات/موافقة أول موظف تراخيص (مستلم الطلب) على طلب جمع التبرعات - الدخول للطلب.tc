@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>موافقة أول موظف تراخيص (مستلم الطلب) على طلب جمع التبرعات - الدخول للطلب</name>
+   <tag>Licensing</tag>
+   <comment></comment>
+   <testCaseGuid>d1e51d14-cc6a-4423-bedf-cbd7d16f76ea</testCaseGuid>
+</TestCaseEntity>

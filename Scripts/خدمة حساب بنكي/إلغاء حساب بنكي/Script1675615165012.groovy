@@ -23,8 +23,9 @@ WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول م�
 'خدمات التحصيل'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'إعتماد حساب بنك داخلي')
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/mark_Internal Bank Account Approval'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -46,7 +47,8 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/Projects Services/I
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input__bankAccountSearchCriteria'))
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input__bankAccountSearchCriteria'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(3)
 

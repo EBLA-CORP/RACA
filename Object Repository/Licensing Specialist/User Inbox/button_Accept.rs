@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Accept</name>
+   <tag></tag>
+   <elementGuidId>17d934b5-d89e-47b8-a7bc-4d02802d7672</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dialog-actions > button.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'موافقة' or . = 'موافقة')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-3']/app-dialog-container/employment-approve/div[3]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b9c76e63-bf0d-47d6-ada9-84bc6a6bca8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>62d7dc9b-4742-4616-976a-e197bf6d1ffe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>موافقة</value>
+      <webElementGuid>d3335138-332c-48b2-8f56-4e5f028b372e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-3&quot;)/app-dialog-container[@class=&quot;ng-tns-c40-65 ng-trigger ng-trigger-dialogContainer ng-star-inserted rounded shadow&quot;]/employment-approve[@class=&quot;dialog-item ng-star-inserted&quot;]/div[@class=&quot;dialog-actions&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>3abd5a9c-2ac4-4497-a575-5c5e6692dabf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-3']/app-dialog-container/employment-approve/div[3]/button</value>
+      <webElementGuid>43de6f13-3224-4c01-a24a-6a37f58e8ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='التعليق'])[4]/following::button[1]</value>
+      <webElementGuid>73818709-0ff6-49f5-b099-f95a9900ae15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::button[1]</value>
+      <webElementGuid>1a7daef3-a667-4100-b1ad-bcf244f56026</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='أغلق'])[1]/preceding::button[1]</value>
+      <webElementGuid>5fb95af0-783c-4188-8136-ffc6b4c07a11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>8bbd8b21-49a0-4527-8d0b-e83b42911d28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' موافقة ' or . = ' موافقة ')]</value>
+      <webElementGuid>9775f6c6-3e35-43f0-af10-9c27fb6d97bb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>موافقة ثاني موظف تراخيص على الطلب - الدخول للطلب</name>
+   <tag>Licensing</tag>
+   <comment></comment>
+   <testCaseGuid>f01ee11a-b5c7-48d7-ab82-57f1a5b72251</testCaseGuid>
+</TestCaseEntity>

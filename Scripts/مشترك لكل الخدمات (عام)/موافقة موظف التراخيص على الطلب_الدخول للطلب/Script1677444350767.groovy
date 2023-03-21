@@ -38,27 +38,25 @@ switch (GlobalVariable.LicensingSpecialist1st) {
         break
 }
 
-WebUI.click(findTestObject('Licensing Specialist/span_User Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_user inbox'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Claim'))
+WebUI.click(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Complete'))
+WebUI.click(findTestObject('Licensing Specialist/User Inbox/button_Accept'))
 
 WebUI.setText(findTestObject('Licensing Specialist/User Inbox/textarea__Accept comment'), 'موافقة موظف التراخيص')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Licensing Specialist/User Inbox/button_Accept (popup window)'))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
 
-WebUI.delay(2)
+WebUI.delay(10)
+
+WebUI.verifyTextNotPresent(GlobalVariable.RequestNumber, false, FailureHandling.OPTIONAL)
 
 WebUI.closeBrowser()
 

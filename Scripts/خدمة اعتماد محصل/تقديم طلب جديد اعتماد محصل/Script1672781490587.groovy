@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), '�
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/Collector Approval/mark_Collector Approval (in arabic)'))
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'))
 
 WebUI.delay(5)
 
@@ -163,9 +163,6 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/Collector Approval/button_close (collector upload screen)'))
 
 WebUI.delay(2)
-
-WebUI.verifyElementClickable(findTestObject('Organization Emploee_Home Page/Collection Services/Collector Approval/button_Launch (send request)'), 
-    FailureHandling.OPTIONAL)
 
 'إرسال الطلب'
 WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/Collector Approval/button_Launch (send request)'))

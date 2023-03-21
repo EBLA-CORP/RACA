@@ -10,11 +10,15 @@
          <value>span.myDpDayValue.myDpMarkCurrDay.myDpHighlight</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;d_3_6&quot;)/span[@class=&quot;myDpDayValue myDpMarkCurrDay myDpHighlight&quot;][count(. | //span[@class = 'myDpDayValue myDpMarkCurrDay myDpHighlight']) = count(//span[@class = 'myDpDayValue myDpMarkCurrDay myDpHighlight'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//td[@id='d_3_6']/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d1072191-f9c3-414e-87ad-4aa60584793d</webElementGuid>
+      <webElementGuid>dfaf5489-f7d8-4d68-beba-ebcfc7a96393</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>myDpDayValue myDpMarkCurrDay myDpHighlight</value>
-      <webElementGuid>223aa70f-0745-4498-b9de-76d85f2a0812</webElementGuid>
+      <webElementGuid>d45202de-243d-429d-b0b3-9a4caabb5a5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Sunday, February 26, 2023</value>
-      <webElementGuid>3bb59518-21d9-42b9-9340-ab47d83409e5</webElementGuid>
+      <webElementGuid>ca217cd5-cea6-4bdf-8316-3c78a34553c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +50,15 @@
       <name>text</name>
       <type>Main</type>
       <value>26</value>
-      <webElementGuid>03df449d-2572-47f0-a898-933f20f214bd</webElementGuid>
+      <webElementGuid>96004afd-2685-4fae-8ac6-14ed465a13d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;d_3_6&quot;)/span[@class=&quot;myDpDayValue myDpMarkCurrDay myDpHighlight&quot;]</value>
-      <webElementGuid>2e811257-aba8-479c-8360-ecb060fb01c2</webElementGuid>
+      <webElementGuid>395819c9-8bdb-4a8a-8448-d708eb5846cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//td[@id='d_3_6']/span</value>
-      <webElementGuid>a75eabf3-bba7-42fe-a1b5-021529d1fe2d</webElementGuid>
+      <webElementGuid>57907827-a51a-40dc-9199-7ea8264164c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/following::span[28]</value>
-      <webElementGuid>9ef02c45-8cab-4342-bd0f-269fd494ef88</webElementGuid>
+      <webElementGuid>2ebab26a-5f6e-4c71-ae5f-29e0cf464b92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[28]</value>
-      <webElementGuid>274f60a3-eb51-461d-96c9-9c7fff2c9fe0</webElementGuid>
+      <webElementGuid>0b71e52d-5abc-47f8-b1f5-156d85d4c5e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='حقل مطلوب'])[15]/preceding::span[15]</value>
-      <webElementGuid>96ae0f61-a369-45f2-b73b-a7ba2b1708bb</webElementGuid>
+      <webElementGuid>2ae61fb8-4b7e-487c-92f6-378db88c63eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='تاريخ انتهاء العمل'])[1]/preceding::span[16]</value>
-      <webElementGuid>c7682952-c86e-4ab1-8381-067a5bba9f53</webElementGuid>
+      <webElementGuid>bfb3546a-c597-4f0a-b262-26cd4730e254</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='26']/parent::*</value>
-      <webElementGuid>2eedad0d-6e6f-451a-9ebe-325b8c5b7549</webElementGuid>
+      <webElementGuid>60e50a49-d351-43ed-8095-1103c2528946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td[7]/span</value>
-      <webElementGuid>570f40dd-bcf8-48e4-8400-50fe4a201a0c</webElementGuid>
+      <webElementGuid>3c2a99e4-9a53-4dfb-9db9-e76e2c6a93da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '26' or . = '26')]</value>
-      <webElementGuid>9e5931d5-446d-4b75-a361-c9568ece934f</webElementGuid>
+      <webElementGuid>5efb3313-9e83-4f45-99aa-579a9b16cabd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

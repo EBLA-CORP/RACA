@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_formResetAcceptance (yes button)</name>
+   <tag></tag>
+   <elementGuidId>5900b3ba-92b5-4780-9b43-39200bed614d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.shadow.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-3']/app-dialog-container/app-predefined-dialog/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a906bc0c-7484-4c63-8c13-9accf12d4fa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary shadow ng-star-inserted</value>
+      <webElementGuid>56316cbd-c1ce-488b-bb02-301eccecf786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>نعم</value>
+      <webElementGuid>b9995f77-4054-4068-92f1-c6545654ad59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-3&quot;)/app-dialog-container[@class=&quot;ng-tns-c40-46 ng-trigger ng-trigger-dialogContainer ng-star-inserted rounded shadow&quot;]/app-predefined-dialog[@class=&quot;dialog-item ng-star-inserted&quot;]/div[@class=&quot;dialog-actions justify-content-center&quot;]/button[@class=&quot;btn btn-primary shadow ng-star-inserted&quot;]</value>
+      <webElementGuid>ef6ae74c-0df7-4783-98e6-33ff555e2897</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-3']/app-dialog-container/app-predefined-dialog/div[2]/button</value>
+      <webElementGuid>a8bbff37-a060-402a-a068-62b03866fb58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='سيؤدي هذا إلى إعادة تعيين النموذج.هل تريد الاستمرار؟'])[1]/following::button[1]</value>
+      <webElementGuid>a5a1a2fb-0605-4b40-94de-348ffffab276</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v2.1.31'])[1]/following::button[1]</value>
+      <webElementGuid>326828eb-20ef-4a0c-be79-93b7b5ec7335</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[7]/preceding::button[1]</value>
+      <webElementGuid>058547da-8510-43d6-9413-bbb5a32983c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[2]</value>
+      <webElementGuid>0d4acd4f-5451-4d2b-b8ea-95c5fa3a3893</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-predefined-dialog/div[2]/button</value>
+      <webElementGuid>e253abaa-c11e-4bb9-a0de-1e22a4ecfc67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'نعم' or . = 'نعم')]</value>
+      <webElementGuid>e617886c-18e1-4ad9-ad63-45fefab322b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

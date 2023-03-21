@@ -38,11 +38,11 @@ switch (GlobalVariable.LicensingSpecialist1st) {
         break
 }
 
-WebUI.click(findTestObject('Licensing Specialist/span_User Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_user inbox'))
 
 WebUI.delay(2)
 
-WebUI.rightClick(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.delay(2)
 
@@ -65,7 +65,7 @@ WebUI.verifyTextNotPresent(GlobalVariable.RequestNumber, false, FailureHandling.
 WebUI.click(findTestObject('Licensing Specialist/i__Home'))
 
 'شوف وين بيروح الطلب لعند أي موظف تراخيص كمان مرة'
-WebUI.click(findTestObject('Organization Manager_Home Page/a_Services Search'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_Services Search'))
 
 WebUI.selectOptionByLabel(findTestObject('Organization Manager_Home Page/Services Search/select_Services List'), 'جمع تبرعات', 
     false)
@@ -76,7 +76,7 @@ WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/butto
 
 WebUI.delay(5)
 
-WebUI.rightClick(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/span_Logs'))
 

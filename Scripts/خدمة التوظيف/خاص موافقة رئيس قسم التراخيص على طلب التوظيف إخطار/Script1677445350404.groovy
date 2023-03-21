@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول رئيس قسم التراخيص'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/a_Team Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_team inbox'))
 
 WebUI.delay(2)
 
@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/i__Reload 
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.click(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.delay(2)
 

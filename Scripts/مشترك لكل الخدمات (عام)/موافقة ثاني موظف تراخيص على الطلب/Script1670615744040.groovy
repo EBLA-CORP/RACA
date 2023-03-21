@@ -38,11 +38,11 @@ switch (GlobalVariable.LicensingSpecialist2nd) {
         break
 }
 
-WebUI.click(findTestObject('Licensing Specialist/span_User Inbox'))
+WebUI.click(findTestObject('Organization Manager_Home Page/span_user inbox'))
 
 WebUI.delay(2)
 
-WebUI.rightClick(findTestObject('Organization Manager_Home Page/User Inbox/Request Number'))
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.click(findTestObject('Licensing Specialist/User Inbox/span_Accept 2nd (right click)'))
 

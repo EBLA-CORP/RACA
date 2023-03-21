@@ -16,10 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
+
+Robot robot = new Robot()
 
 Random rnd = new Random()
 
-randomNumber = (100000 + rnd.nextInt(999999))
+randomNumber = (100000000 + rnd.nextInt(999999999))
 
 'حفظ الرقم العشوائي وإعطاؤه لمتغير (رقم الحساب الثاني الديناميكي)'
 GlobalVariable.AccountNo2 = String.valueOf(randomNumber)
@@ -30,8 +34,9 @@ WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول م�
 'خدمات التحصيل'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'إعتماد حساب بنك داخلي')
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/mark_Internal Bank Account Approval'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
@@ -42,20 +47,14 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/Projects Services/I
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input_RequestType'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input_RequestType'), 
-    Keys.chord(Keys.TAB))
-
 WebUI.delay(2)
 
 'نوع العملية'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input_OperationType'), 
-    'حساب جديد')
+    'حساب')
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input_OperationType'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input_OperationType'), 
-    Keys.chord(Keys.TAB))
 
 WebUI.delay(2)
 
@@ -67,6 +66,12 @@ WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input__oldLicenseFullSerial'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.delay(3)
+
+robot.keyPress(KeyEvent.VK_ENTER)
+
+robot.keyRelease(KeyEvent.VK_ENTER)
 
 WebUI.delay(3)
 
@@ -128,7 +133,7 @@ WebUI.verifyElementClickable(findTestObject('Organization Emploee_Home Page/Proj
 
 WebUI.click(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/button_Launch (send)'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'التأكد من إرسال الطلب'
 WebUI.verifyElementNotClickable(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/button_Launch (send)'), 
