@@ -16,12 +16,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+
+def date = new Date()
+
+def day = date[Calendar.DAY_OF_MONTH]
+
+GlobalVariable.CalendarDay = String.valueOf(day)
+
+Random rnd = new Random()
+
+randomNumber = (10000000000 + rnd.nextInt())
+
+'حفظ الرقم العشوائي وإعطاؤه لمتغير (رقم الحساب الديناميكي)'
+GlobalVariable.Employee_ID = String.valueOf(randomNumber)
 
 'تسجيل دخول موظف جمعية'
 WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول موظف جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'خدمات التحصيل'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'إعتماد حساب بنك داخلي')
+'خدمة طلبات التوظيف'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'طلبات التوظيف')
 
 WebUI.delay(2)
 
@@ -29,39 +43,104 @@ WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)
 
 WebUI.delay(5)
 
-'نوع الطلب'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input_RequestType'), 
-    'الغاء')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input_RequestType'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input_RequestType'), 
-    Keys.chord(Keys.TAB))
+'تبويب بيانات الموظف'
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/a_Employee Data TAB'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-'إدخال رقم الحساب المراد إلغاؤه'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input__bankAccountSearchCriteria'), 
-    '203570005')
-
-WebUI.delay(2)
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/input__bankAccountSearchCriteria'), 
-    Keys.chord(Keys.ENTER))
+'إضافة موظف'
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/h1_addNewEmployee'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/a_SpecialExplanations TAB'))
+'نوع التعريف'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_ID Type'), 'جواز سفر')
 
-'الشروحات الخاصة'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/textarea__description (special explanations TAB)'), 
-    'كاتالون')
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_ID Type'), Keys.chord(Keys.ENTER))
+
+'رقم التعريف'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__passportNumber'), GlobalVariable.Employee_ID)
+
+'تاريخ انتهاء صلاحية رقم التعريف'
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/div__ExpIdPass'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.verifyElementClickable(findTestObject('Organization Emploee_Home Page/Projects Services/Internal Bank Account Approval/button_Save'), 
-    FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'))
+
+'الاسم بالعربية'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__arabicName'), 'موظف كاتالون')
+
+'الاسم بالانجليزية'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__englishName'), 'Katalon Employee')
+
+'الجنسية'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_Nationality'), 'قطري')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_Nationality'), Keys.chord(Keys.ENTER))
+
+'الجنس'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_gender'), 'ذكر')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_gender'), Keys.chord(Keys.ENTER))
+
+'رقم التلفون'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__phone'), '0971')
+
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__jobNumber'), GlobalVariable.Employee_ID)
+
+'المجموعة الوظيفية'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_functionalGroup'), 'الوظائف القياديه')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_functionalGroup'), Keys.chord(Keys.ENTER))
+
+'الإدارة'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__department'), 'إدارة كاتالون')
+
+'المسمى الوظيفي'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_jobTitle'), 'مدير')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_jobTitle'), Keys.chord(Keys.ENTER))
+
+'نوع موقع العقد'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_contractLocationType'), 'داخلي')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_contractLocationType'), Keys.chord(Keys.ENTER))
+
+'مكان التعاقد'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__contractLocation'), 'قطر')
+
+'نوع (مدة) العقد'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_contractPeriod'), 'دائم')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_contractPeriod'), Keys.chord(Keys.ENTER))
+
+'نوع عقد العمل'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_employmentContractType'), 'عقد توظيف')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_employmentContractType'), Keys.chord(Keys.ENTER))
+
+'حالة العقد'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_contractStatus'), 'قيد العمل')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_contractStatus'), Keys.chord(Keys.ENTER))
+
+'تاريخ بدء العمل'
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/div__workStartDate'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'))
+
+WebUI.delay(2)
+
+'إضافة الموظف'
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/button_submitEmployee'))
+
+'حفظ الإضافة (ات)'
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/button_SaveAddedEmployees'))
+
+WebUI.delay(10)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
