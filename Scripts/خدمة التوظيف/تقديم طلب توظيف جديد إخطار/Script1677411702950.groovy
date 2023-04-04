@@ -161,7 +161,7 @@ WebUI.verifyElementClickable(findTestObject('Organization Emploee_Home Page/Empl
 
 WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/button_sendRequest (launch)'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'التأكد من إرسال الطلب'
 WebUI.verifyElementNotClickable(findTestObject('Organization Emploee_Home Page/Employment/button_sendRequest (launch)'), 

@@ -77,11 +77,9 @@ WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/span_Logs'))
 
-WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/a_Item (request) location'))
+WebUI.delay(5)
 
-WebUI.delay(2)
-
-GlobalVariable.LicensingSpecialist2nd = WebUI.getText(findTestObject('Organization Manager_Home Page/Services Search/td_Item (request) location text'))
+GlobalVariable.LicensingSpecialist2nd = WebUI.getText(findTestObject('Organization Manager_Home Page/Services Search/td_ItemLocation'))
 
 WebUI.delay(2)
 

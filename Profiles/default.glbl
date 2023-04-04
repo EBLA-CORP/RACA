@@ -199,4 +199,9 @@
       <initValue>''</initValue>
       <name>CalendarDay</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Requester_ID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

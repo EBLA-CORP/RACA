@@ -10,19 +10,23 @@
          <value>a.nav-link.position-relative.tab-link.active</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@role = 'tab' and (text() = 'البيانات المالية للطب ' or . = 'البيانات المالية للطب ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//ul[@id='tab-list-1']/li[4]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2ad61270-2a25-43f1-b2ae-327c409524a8</webElementGuid>
+      <webElementGuid>6c1d6999-6785-4df7-9203-f1a188e6b1d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>aria-current</name>
       <type>Main</type>
       <value>page</value>
-      <webElementGuid>f1e10fdc-28e9-4f61-8f6a-1e5c92921f32</webElementGuid>
+      <webElementGuid>37986574-1387-4b36-9e7d-469bc2f1bb13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +42,15 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>2cdf19b8-665c-4a72-90a2-8fbe8be35620</webElementGuid>
+      <webElementGuid>fd1673a9-0ba1-4de6-ae5e-82f34fc11aaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>b738b1ea-63c3-4973-b789-e0f4cc8e37f4</webElementGuid>
+      <webElementGuid>d4b7fd6f-abb2-4393-8960-7efc8d8e0cb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link position-relative tab-link active</value>
-      <webElementGuid>0ca6bd6d-ee42-44d4-a772-9c03fbdc64d2</webElementGuid>
+      <webElementGuid>39920d87-d7bf-4228-887a-037d860306e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>01797db3-4daa-48e8-b3a0-c39f0a397e18</webElementGuid>
+      <webElementGuid>a05249b9-aae2-4703-881f-9c8330f1aac8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>البيانات المالية للطب </value>
-      <webElementGuid>1aece71b-ed7c-479e-b9e8-b64f785d34d7</webElementGuid>
+      <webElementGuid>731e9be9-be08-4467-bd0b-c1cee959e3c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tab-list-1&quot;)/li[@class=&quot;nav-item ng-star-inserted&quot;]/a[@class=&quot;nav-link position-relative tab-link active&quot;]</value>
-      <webElementGuid>6e2fbc15-d419-4b76-8d27-1b459b1f539b</webElementGuid>
+      <webElementGuid>c8734346-f384-479e-b36d-1d46f551b242</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='tab-list-1']/li[4]/a</value>
-      <webElementGuid>b8e7d1a4-019e-4afb-af8c-1f49da67577d</webElementGuid>
+      <webElementGuid>7367e26a-af46-45f2-9ee8-0390d52716e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'البيانات المالية للطب')]</value>
-      <webElementGuid>dd09ec52-27a2-4642-9fbb-64e52b244ccb</webElementGuid>
+      <webElementGuid>eb81a7c9-f7c6-4f1f-90bd-f065acdf089a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='الغرض من التحويل'])[1]/following::a[1]</value>
-      <webElementGuid>bff39e2e-cc29-412e-a829-fa8c904e115e</webElementGuid>
+      <webElementGuid>3aab8abe-f3cd-4842-a84b-362699a3253f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='بيانات مقدم الطلب'])[1]/following::a[2]</value>
-      <webElementGuid>bf1c8e4f-fc4c-46dd-8222-1efaf1b13636</webElementGuid>
+      <webElementGuid>691e85a4-f7c4-46ef-bafc-d6a7367ec755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='الشروحات الخاصة'])[1]/preceding::a[1]</value>
-      <webElementGuid>9eda49b0-19be-4458-8bb1-3fe39489e15b</webElementGuid>
+      <webElementGuid>7b75c10d-f854-4aa2-8f28-4f6d6efa9f79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='المرفقات'])[1]/preceding::a[2]</value>
-      <webElementGuid>5bbac8c9-64e9-4782-9a71-1e89d53f54b1</webElementGuid>
+      <webElementGuid>b28236ff-1a09-4446-a1ce-5af3a3eef916</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='البيانات المالية للطب']/parent::*</value>
-      <webElementGuid>f0a39c99-082a-4478-812f-724fdf004181</webElementGuid>
+      <webElementGuid>e043248b-c8fe-4172-99ac-36e88093d7c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tabs-list/ul/li[4]/a</value>
-      <webElementGuid>50efd078-a862-4f84-924b-2952fb7d3539</webElementGuid>
+      <webElementGuid>29c759b7-7ed3-436b-a21d-af7e65afa782</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +154,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'البيانات المالية للطب ' or . = 'البيانات المالية للطب ')]</value>
-      <webElementGuid>002e9a7c-b850-4877-827f-86c29c423ec3</webElementGuid>
+      <webElementGuid>51206daa-eb9a-45a8-9132-5b5732c7e67d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

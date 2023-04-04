@@ -28,7 +28,7 @@ Random rnd = new Random()
 
 randomNumber = (10000000000 + rnd.nextInt())
 
-'حفظ الرقم العشوائي وإعطاؤه لمتغير (رقم الحساب الديناميكي)'
+'حفظ الرقم العشوائي وإعطاؤه لمتغير (رقم التعريف الديناميكي)'
 GlobalVariable.Employee_ID = String.valueOf(randomNumber)
 
 'تسجيل دخول موظف جمعية'
@@ -162,7 +162,7 @@ WebUI.verifyElementClickable(findTestObject('Organization Emploee_Home Page/Empl
 
 WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/button_sendRequest (launch)'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'التأكد من إرسال الطلب'
 WebUI.verifyElementNotClickable(findTestObject('Organization Emploee_Home Page/Employment/button_sendRequest (launch)'), 

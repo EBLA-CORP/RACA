@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tab-list-1-content']/tab[3]/div/div[5]/div/button</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[17]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

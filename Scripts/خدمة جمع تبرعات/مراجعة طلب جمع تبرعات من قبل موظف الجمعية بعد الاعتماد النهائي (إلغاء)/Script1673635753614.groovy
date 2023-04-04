@@ -49,6 +49,8 @@ WebUI.verifyTextPresent('إلغاء', false, FailureHandling.OPTIONAL)
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Complete'))
 
 WebUI.setText(findTestObject('Organization Emploee_Home Page/User Inbox/textarea__Complete comment'), 'مغلق')

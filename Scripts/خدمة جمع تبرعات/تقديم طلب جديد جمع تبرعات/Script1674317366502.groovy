@@ -39,10 +39,10 @@ WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Service
 WebUI.delay(2)
 
 'نوع الترخيص'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__licenseDurationType'), 
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input_licenseDurationType'), 
     'دائمة')
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__licenseDurationType'), 
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input_licenseDurationType'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(2)
@@ -80,7 +80,7 @@ WebUI.verifyElementClickable(findTestObject('Organization Emploee_Home Page/Coll
 
 WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/button_Save'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 'التأكد من حفظ الطلب'
 WebUI.verifyTextPresent('تم أضافة الطلب بنجاح', false, FailureHandling.OPTIONAL)

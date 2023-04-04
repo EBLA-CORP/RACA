@@ -46,10 +46,10 @@ WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Service
 WebUI.delay(2)
 
 'نوع الترخيص'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_licenseType'), 
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_UNOCHA'), 
     'دائمة')
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_licenseType'), 
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_UNOCHA'), 
     Keys.chord(Keys.ENTER))
 
 WebUI.delay(2)
@@ -158,7 +158,7 @@ robot.keyPress(KeyEvent.VK_ESCAPE)
 
 robot.keyRelease(KeyEvent.VK_ESCAPE)
 
-WebUI.uploadFile(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_collectionServiceAttachmentUploader'), 
+WebUI.uploadFile(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_receiverNationality'), 
     GlobalVariable.UploadFile)
 
 WebUI.delay(3)
@@ -178,7 +178,7 @@ robot.keyPress(KeyEvent.VK_ESCAPE)
 
 robot.keyRelease(KeyEvent.VK_ESCAPE)
 
-WebUI.uploadFile(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_collectionServiceAttachmentUploader'), 
+WebUI.uploadFile(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_receiverNationality'), 
     GlobalVariable.UploadFile)
 
 WebUI.delay(3)
@@ -198,7 +198,7 @@ robot.keyPress(KeyEvent.VK_ESCAPE)
 
 robot.keyRelease(KeyEvent.VK_ESCAPE)
 
-WebUI.uploadFile(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_collectionServiceAttachmentUploader'), 
+WebUI.uploadFile(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_receiverNationality'), 
     GlobalVariable.UploadFile)
 
 WebUI.delay(3)
@@ -218,7 +218,7 @@ robot.keyPress(KeyEvent.VK_ESCAPE)
 
 robot.keyRelease(KeyEvent.VK_ESCAPE)
 
-WebUI.uploadFile(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_collectionServiceAttachmentUploader'), 
+WebUI.uploadFile(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_receiverNationality'), 
     GlobalVariable.UploadFile)
 
 WebUI.delay(3)

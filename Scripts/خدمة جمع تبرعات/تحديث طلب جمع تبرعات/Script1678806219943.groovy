@@ -33,22 +33,16 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__requestType'), 'تحديث')
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__requestType'), Keys.chord(
-        Keys.TAB))
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__requestType'), Keys.chord(
-        Keys.TAB))
+        Keys.ENTER))
 
 WebUI.delay(2)
 
 'نوع الرخصة'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__licenseDurationType'), 
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input_licenseDurationType'), 
     'دائمة')
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__licenseDurationType'), 
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input_licenseDurationType'), 
     Keys.chord(Keys.ENTER))
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/input__licenseDurationType'), 
-    Keys.chord(Keys.TAB))
 
 WebUI.delay(2)
 

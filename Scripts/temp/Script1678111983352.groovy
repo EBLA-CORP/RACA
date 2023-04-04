@@ -16,131 +16,58 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.text.SimpleDateFormat as SimpleDateFormat
 
-def date = new Date()
+'تسجيل دخول مدير جمعية'
+WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول مدير جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
 
-def day = date[Calendar.DAY_OF_MONTH]
-
-GlobalVariable.CalendarDay = String.valueOf(day)
-
-Random rnd = new Random()
-
-randomNumber = (10000000000 + rnd.nextInt())
-
-'حفظ الرقم العشوائي وإعطاؤه لمتغير (رقم الحساب الديناميكي)'
-GlobalVariable.Employee_ID = String.valueOf(randomNumber)
-
-'تسجيل دخول موظف جمعية'
-WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول موظف جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'خدمة طلبات التوظيف'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'طلبات التوظيف')
+WebUI.click(findTestObject('Organization Manager_Home Page/span_team inbox'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Licensing Manager/User Inbox/Request Number'))
 
 WebUI.delay(5)
 
-'تبويب بيانات الموظف'
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/a_Employee Data TAB'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-'إضافة موظف'
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/h1_addNewEmployee'))
+WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Claim'))
 
 WebUI.delay(3)
 
-'نوع التعريف'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_ID Type'), 'جواز سفر')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_ID Type'), Keys.chord(Keys.ENTER))
-
-'رقم التعريف'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__passportNumber'), GlobalVariable.Employee_ID)
-
-'تاريخ انتهاء صلاحية رقم التعريف'
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/div__ExpIdPass'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Complete'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'))
-
-'الاسم بالعربية'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__arabicName'), 'موظف كاتالون')
-
-'الاسم بالانجليزية'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__englishName'), 'Katalon Employee')
-
-'الجنسية'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_Nationality'), 'قطري')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_Nationality'), Keys.chord(Keys.ENTER))
-
-'الجنس'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_gender'), 'ذكر')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_gender'), Keys.chord(Keys.ENTER))
-
-'رقم التلفون'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__phone'), '0971')
-
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__jobNumber'), GlobalVariable.Employee_ID)
-
-'المجموعة الوظيفية'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_functionalGroup'), 'الوظائف القياديه')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_functionalGroup'), Keys.chord(Keys.ENTER))
-
-'الإدارة'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__department'), 'إدارة كاتالون')
-
-'المسمى الوظيفي'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_jobTitle'), 'مدير')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_jobTitle'), Keys.chord(Keys.ENTER))
-
-'نوع موقع العقد'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_contractLocationType'), 'داخلي')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_contractLocationType'), Keys.chord(Keys.ENTER))
-
-'مكان التعاقد'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__contractLocation'), 'قطر')
-
-'نوع (مدة) العقد'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_contractPeriod'), 'دائم')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_contractPeriod'), Keys.chord(Keys.ENTER))
-
-'نوع عقد العمل'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_employmentContractType'), 'عقد توظيف')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_employmentContractType'), Keys.chord(Keys.ENTER))
-
-'حالة العقد'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_contractStatus'), 'قيد العمل')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_contractStatus'), Keys.chord(Keys.ENTER))
-
-'تاريخ بدء العمل'
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/div__workStartDate'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Licensing Manager/User Inbox/textarea__Complete comment'), 'اكتمال')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
+
+WebUI.delay(5)
+
+WebUI.verifyTextNotPresent(GlobalVariable.RequestNumber, false, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Organization Manager_Home Page/i__Home'))
+
+WebUI.click(findTestObject('Organization Manager_Home Page/span_Services Search'))
+
+WebUI.selectOptionByLabel(findTestObject('Organization Manager_Home Page/Services Search/select_Services List'), 'جمع تبرعات', 
+    false)
+
+WebUI.setText(findTestObject('Organization Manager_Home Page/Services Search/input__Serial number'), GlobalVariable.RequestNumber)
+
+WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/button_Search'))
+
+WebUI.delay(5)
+
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
+
+WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/span_Logs'))
 
 WebUI.delay(2)
 
-'إضافة الموظف'
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/button_submitEmployee'))
+GlobalVariable.LicensingSpecialist1st = WebUI.getText(findTestObject('Organization Manager_Home Page/Services Search/td_ItemLocation'))
 
-'حفظ الإضافة (ات)'
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/button_SaveAddedEmployees'))
+WebUI.delay(2)
 
-WebUI.delay(10)
-
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 

@@ -6,6 +6,10 @@
    <elementGuidId>417597e6-2266-4dbd-b1f4-1d0738d6b9be</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c130-73 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c130-73 ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col&quot;]/button[@class=&quot;btn btn-link outline-none&quot;]/i[@class=&quot;mdi mdi-plus-box&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>i.mdi.mdi-plus-box</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//div[@id='tab-list-1-content']/tab[3]/div/div/div/button/i</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
