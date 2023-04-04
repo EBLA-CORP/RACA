@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Transferee info TAB</name>
+   <tag></tag>
+   <elementGuidId>2053a209-6a24-4f9a-b0d5-5a4a9488faa7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='tab-list-1']/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e3ffdc44-61c4-43b2-b5f3-68b771a29e05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-current</name>
+      <type>Main</type>
+      <value>page</value>
+      <webElementGuid>89c9795a-7cd2-46a2-9f9b-fc241d1a36b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>38e38c52-54b1-47ef-b926-b19d6e4f75af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>ea27529f-e518-4e62-975b-cd5331aa5d08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link position-relative tab-link</value>
+      <webElementGuid>0e151f58-7ae7-4fe2-b06f-b4f6a10f1b55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>بيانات الشخص المستقبل </value>
+      <webElementGuid>9e8cbbe9-7ad9-41aa-a4ba-a999a9147f20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1&quot;)/li[@class=&quot;nav-item ng-star-inserted&quot;]/a[@class=&quot;nav-link position-relative tab-link&quot;]</value>
+      <webElementGuid>255358f6-9a01-4871-a8af-97c345151691</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='tab-list-1']/li[3]/a</value>
+      <webElementGuid>35e7d57e-566c-4eb7-b839-012e8fc5441e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'بيانات الشخص المستقبل')]</value>
+      <webElementGuid>1fead59d-2c44-4e29-97f7-5aff793c2a2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='بيانات مقدم الطلب'])[1]/following::a[1]</value>
+      <webElementGuid>e5c3d608-aeef-4188-82be-b8ae78edacfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='معلومات اساسية'])[1]/following::a[2]</value>
+      <webElementGuid>f7807403-5160-48a1-92d8-f2d2916fb31c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الغرض من التحويل'])[1]/preceding::a[1]</value>
+      <webElementGuid>f4607964-412d-4d04-b05a-aef6629742b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='البيانات المالية للطب'])[1]/preceding::a[2]</value>
+      <webElementGuid>e69d5b15-56bc-486d-b87c-11a964ec8900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='بيانات الشخص المستقبل']/parent::*</value>
+      <webElementGuid>6e571697-f75b-48ed-80d7-e447ef795ba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tabs-list/ul/li[3]/a</value>
+      <webElementGuid>36616bfb-7952-4e97-9d37-dbf2120e0195</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'بيانات الشخص المستقبل ' or . = 'بيانات الشخص المستقبل ')]</value>
+      <webElementGuid>6c6d2294-1527-47af-b032-03468b02fd1e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

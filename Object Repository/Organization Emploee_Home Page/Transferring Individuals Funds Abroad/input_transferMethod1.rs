@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_licenseType</name>
+   <name>input_transferMethod1</name>
    <tag></tag>
-   <elementGuidId>d02ff75f-f0c4-4ba9-9fa0-bec33af56428</elementGuidId>
+   <elementGuidId>8a1c3053-e9ea-483e-b6eb-3193ae4034ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='text'])[3]</value>
+         <key>CSS</key>
+         <value>#transferMethod > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#licenseDurationType > div.ng-select-container.ng-has-value > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6772e98f-8666-4750-aef2-a357260f09bd</webElementGuid>
+      <webElementGuid>f2df56b7-2b3c-4634-b407-050ca37a1aa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>0c0f218f-882a-4059-a739-0cba09d11b1b</webElementGuid>
+      <webElementGuid>18ffe923-be7f-4de9-862c-8ce4b9197443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>29251285-61ab-4861-ad16-2fb56bde6a0c</webElementGuid>
+      <webElementGuid>467a06de-baa4-4243-a02c-6dc866c1304e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>6b555511-5c4e-4395-9cca-a3fd348c2bb1</webElementGuid>
+      <webElementGuid>6a4c29a0-68f2-48d4-8890-8b98700fbe8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,63 +54,47 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>bbbeb36b-ea5d-4c40-af92-381fd58845f4</webElementGuid>
+      <webElementGuid>0e58fb64-fb0b-452d-9273-44950536d948</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>adb6a02c9f1d</value>
-      <webElementGuid>39d22a4e-fd8a-42f7-8e52-64ccc33079ab</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-activedescendant</name>
-      <type>Main</type>
-      <value>adb6a02c9f1d-0</value>
-      <webElementGuid>08273e06-e316-44b4-8bdb-a7cf55d2008c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>adb6a02c9f1d</value>
-      <webElementGuid>50523e3a-0c8d-4fc5-a510-abd2197cc6e6</webElementGuid>
+      <value>a444d7a5f78a</value>
+      <webElementGuid>55d4948c-a273-43c9-84aa-1ead076a996b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;licenseDurationType&quot;)/div[@class=&quot;ng-select-container ng-has-value&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
-      <webElementGuid>a7aad468-9cdd-4377-a107-ecb8b581ed4a</webElementGuid>
+      <value>id(&quot;transferMethod&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
+      <webElementGuid>2e39b59d-0934-489a-bf5a-3c8403016aad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[3]</value>
-      <webElementGuid>6b3e9e68-420e-4220-9179-8041ffcf26c6</webElementGuid>
+      <value>(//input[@type='text'])[6]</value>
+      <webElementGuid>c34e0474-da70-4991-b486-453760f06ec5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ng-select[@id='licenseDurationType']/div/div/div[3]/input</value>
-      <webElementGuid>88cb5151-dc13-4881-b977-cc4c067786d3</webElementGuid>
+      <value>//ng-select[@id='transferMethod']/div/div/div[2]/input</value>
+      <webElementGuid>43f882d0-1464-4388-ada4-d1e00e0fe961</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/ng-select/div/div/div[3]/input</value>
-      <webElementGuid>734fb0c0-635e-4788-8382-abb476542f2f</webElementGuid>
+      <value>//tab[5]/div/div[2]/div/ng-select/div/div/div[2]/input</value>
+      <webElementGuid>f6cb6590-6d9b-4908-b9a5-7968b7784d72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>649d7808-f016-432d-935f-ec2b442e424c</webElementGuid>
+      <webElementGuid>50730473-54e3-47cd-82d5-7dd84ee10373</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

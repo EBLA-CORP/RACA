@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_ItemLocation</name>
+   <tag></tag>
+   <elementGuidId>958f48ae-7ac2-4a22-9cc2-dca9897e3969</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.cdk-cell.cdk-column-location.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='itemLocation3']/div/service-log-item-location/div/div/app-table/div/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>5e607787-4ee0-4320-a78a-01b504823979</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cdk-cell cdk-column-location ng-star-inserted</value>
+      <webElementGuid>f1faeeb4-5998-4a7e-8807-a6af16f9e6cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>cell</value>
+      <webElementGuid>87f28304-2779-45f3-b520-e08518ced604</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>موظف التراخيص 2 / جمعية قطر الخيرية</value>
+      <webElementGuid>4eab6687-a6d5-4bd3-ada8-f4de1437e77e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;itemLocation3&quot;)/div[@class=&quot;accordion-body ng-tns-c129-109 ng-trigger ng-trigger-toggleExpand&quot;]/service-log-item-location[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/app-table[1]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;cdk-table table table-striped table-bordered caption-top ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;cdk-row ng-star-inserted&quot;]/td[@class=&quot;cdk-cell cdk-column-location ng-star-inserted&quot;]</value>
+      <webElementGuid>185a2755-a41a-4e84-8b1b-2f15dcb18ae0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='itemLocation3']/div/service-log-item-location/div/div/app-table/div/table/tbody/tr/td</value>
+      <webElementGuid>af9b8b45-bffd-4286-9d36-c29fe59c9030</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الاجراء'])[1]/following::td[1]</value>
+      <webElementGuid>df02e5f2-8aff-47dd-8c12-8a5b3f8cf7e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مكان العنصر'])[2]/following::td[1]</value>
+      <webElementGuid>9c033eef-d208-4577-b043-56c6fadc7e5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//service-log-item-location/div/div/app-table/div/table/tbody/tr/td</value>
+      <webElementGuid>1bb4dbf0-4616-4741-a0ad-0e39b5afe8e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'موظف التراخيص 2 / جمعية قطر الخيرية' or . = 'موظف التراخيص 2 / جمعية قطر الخيرية')]</value>
+      <webElementGuid>1c9f9379-b39d-4374-bb0b-9808f6d681ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

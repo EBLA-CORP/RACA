@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_collectionServiceAttachmentUploader</name>
+   <name>div__licenseEndDate</name>
    <tag></tag>
-   <elementGuidId>b7c7b9a1-391e-48e7-9b02-708e9cd66ef5</elementGuidId>
+   <elementGuidId>b19829b0-2352-4e46-a687-9b6fdd0de36d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='file'])[2]</value>
+         <key>CSS</key>
+         <value>#licenseEndDate</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.dialog-content > div > input[type=&quot;file&quot;]</value>
+         <key>XPATH</key>
+         <value>//div[@id='licenseEndDate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,63 +21,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>6f83f1f2-62c3-4c1a-a849-ffac5aca3f1e</webElementGuid>
+      <value>div</value>
+      <webElementGuid>e911481c-718f-459f-9695-fa46f924fbef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>file</value>
-      <webElementGuid>97b6ad9f-fbbd-4a2a-85be-f0d3569ac5db</webElementGuid>
+      <value>licenseEndDate</value>
+      <webElementGuid>65afabee-de4d-4234-bf6c-7ce6b02b439a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>accept</name>
+      <name>class</name>
       <type>Main</type>
-      <value>.pdf</value>
-      <webElementGuid>69146a0e-d54a-4b3f-ad97-eac78dc52d07</webElementGuid>
+      <value>form-control ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>d2e5284a-e0a2-4385-87b4-612f398f4d80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cdk-overlay-0&quot;)/app-dialog-container[@class=&quot;ng-tns-c40-44 ng-trigger ng-trigger-dialogContainer ng-star-inserted rounded shadow&quot;]/custom-attachment-popup[@class=&quot;dialog-item ng-star-inserted&quot;]/div[@class=&quot;dialog-content&quot;]/div[1]/input[1]</value>
-      <webElementGuid>1126f00d-3528-437d-b008-2f13b9d283f2</webElementGuid>
+      <value>id(&quot;licenseEndDate&quot;)</value>
+      <webElementGuid>6aae8859-d972-4f9a-bef8-c6b26bf7d458</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='file'])[2]</value>
-      <webElementGuid>20e3a250-7ba0-49ad-94ec-2f8f96fadd08</webElementGuid>
+      <value>//div[@id='licenseEndDate']</value>
+      <webElementGuid>f0662ae6-2dd1-47ec-8d1e-454f0b058a32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cdk-overlay-0']/app-dialog-container/custom-attachment-popup/div[2]/div/input</value>
-      <webElementGuid>3244abe7-e32d-4f13-9507-ea3e696bc23e</webElementGuid>
+      <value>//div[@id='cdk-overlay-3']/app-dialog-container/transfer-funds-abroad-approve-task-popup/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>ceeb3a08-82e6-4c6a-914c-76e802c4a734</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//custom-attachment-popup/div[2]/div/input</value>
-      <webElementGuid>04788d58-a6a7-4ea4-b3d5-dd47005aa0ac</webElementGuid>
+      <value>//div/div[2]/div/div</value>
+      <webElementGuid>59c11190-65a2-42d0-9f93-935aa306ee8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'file']</value>
-      <webElementGuid>6f963ba5-0fec-4037-b4ba-f4653a0a72f5</webElementGuid>
+      <value>//div[@id = 'licenseEndDate']</value>
+      <webElementGuid>450705ee-9c11-46e3-a85c-42c4962d86eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

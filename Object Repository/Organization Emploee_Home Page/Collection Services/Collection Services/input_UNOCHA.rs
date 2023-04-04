@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_currency</name>
+   <name>input_UNOCHA</name>
    <tag></tag>
-   <elementGuidId>3dfa17f8-9f11-4ee4-94ae-91cdb3e96d8b</elementGuidId>
+   <elementGuidId>d02ff75f-f0c4-4ba9-9fa0-bec33af56428</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#currency > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
+         <value>#mainUNOCHACategory > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[4]</value>
+         <value>(//input[@type='text'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7a6c093f-5496-40be-a6d7-7a8a10bf0890</webElementGuid>
+      <webElementGuid>616e671b-7bc2-47e8-bd3f-ea6bc7a5ea6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>4e1a41aa-5d2e-412d-a9d1-f97aad35d99f</webElementGuid>
+      <webElementGuid>85aa2766-3b40-41b8-ace9-43d43b1ec1b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fbc6926e-b194-4700-aae5-149d8ed9e97f</webElementGuid>
+      <webElementGuid>4f8d4900-39f3-4c46-b5b6-9bb44cb4b93a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>f3ddf045-202e-4776-af05-c3df362f7966</webElementGuid>
+      <webElementGuid>80c5a783-4a11-4e8a-9b5a-7f441ce6f464</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,63 +54,47 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>b937aa3c-01dd-40cb-8e99-05ae4b3c94d0</webElementGuid>
+      <webElementGuid>16b92902-feb9-48d0-9dc4-92bc584169e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>a193ada1e98e</value>
-      <webElementGuid>9da0bdf8-52a4-41e3-b945-5de8d152d14d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-activedescendant</name>
-      <type>Main</type>
-      <value>a193ada1e98e-0</value>
-      <webElementGuid>85e49046-a4b4-46f6-9a36-7621408207d4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>a193ada1e98e</value>
-      <webElementGuid>0e571e04-93a2-467f-91a4-aca4a87b99b3</webElementGuid>
+      <value>a865b7f9a2d6</value>
+      <webElementGuid>a21207d2-3782-4dc8-99b8-ee4013c7ef1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;currency&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
-      <webElementGuid>0ffde570-d405-44cb-ae76-28dc0e11e1f5</webElementGuid>
+      <value>id(&quot;mainUNOCHACategory&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
+      <webElementGuid>396d7838-ae13-4efb-b8d6-0ebe15d15dc7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[4]</value>
-      <webElementGuid>83eb9a9f-de3a-4373-88ab-b0dc6b325c8b</webElementGuid>
+      <value>(//input[@type='text'])[9]</value>
+      <webElementGuid>722842af-87c7-4762-9673-dd66c961cb65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ng-select[@id='currency']/div/div/div[2]/input</value>
-      <webElementGuid>9a3f7acf-d42d-4725-9b90-b96b57f3a49f</webElementGuid>
+      <value>//ng-select[@id='mainUNOCHACategory']/div/div/div[2]/input</value>
+      <webElementGuid>b152c800-ac08-436a-905b-7ca924e48619</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/ng-select/div/div/div[2]/input</value>
-      <webElementGuid>f8fdb422-a464-49fb-a82f-1474e046ad60</webElementGuid>
+      <value>//div[4]/div[2]/ng-select/div/div/div[2]/input</value>
+      <webElementGuid>5d91461f-891c-4bc9-b53a-c0509c2091ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>304bf8d8-e551-4f17-9122-11f9ab253a7a</webElementGuid>
+      <webElementGuid>caedda22-06cb-4ad1-ba46-7ca86676d5fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

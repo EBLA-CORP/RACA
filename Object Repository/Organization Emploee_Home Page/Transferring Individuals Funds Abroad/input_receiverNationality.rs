@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_transferMethod</name>
+   <name>input_receiverNationality</name>
    <tag></tag>
-   <elementGuidId>165a55cf-410e-4c94-8561-2a2504c92710</elementGuidId>
+   <elementGuidId>002f2d67-459c-4205-80e9-8a111794d4ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#transferMethod > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
+         <value>#receiverNationality > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[5]</value>
+         <value>(//input[@type='text'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5210c278-3446-4237-9dbc-f3dd8d295c9a</webElementGuid>
+      <webElementGuid>14a7d0bc-9447-4895-b8a1-faf5bb9f5ff2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>691c623d-f861-47ea-b2b3-068e511c85f6</webElementGuid>
+      <webElementGuid>109cf1e7-97fe-438c-b0d9-f009b6b5deb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>8569913e-dbea-47ec-9874-ac16cb098ec8</webElementGuid>
+      <webElementGuid>4bad5185-adcd-482e-8a9c-65830e2d76ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>6c88453b-1dfe-473f-a07e-41d1fcff8f08</webElementGuid>
+      <webElementGuid>05fcd722-6a3f-457a-b67a-10549e5356d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,55 +54,39 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>17978fd3-9d11-4a10-b1e2-53fe31ec320e</webElementGuid>
+      <webElementGuid>247e2f75-8287-4ae6-ab1d-540c078b5541</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>adc83e3bacae</value>
-      <webElementGuid>fe1cffa5-36af-4f52-9af0-edc59ff63cdb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-activedescendant</name>
-      <type>Main</type>
-      <value>adc83e3bacae-0</value>
-      <webElementGuid>7de9efd0-70d4-4599-b8e3-4846dd0b4bca</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>adc83e3bacae</value>
-      <webElementGuid>f963cd7e-53af-477f-bf63-6f0a739b5518</webElementGuid>
+      <value>a8b213d95d41</value>
+      <webElementGuid>40c8dfb7-608f-4442-9d7d-2eec27eb18fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transferMethod&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
-      <webElementGuid>29b4189f-3276-48ae-9511-664fa38d7e63</webElementGuid>
+      <value>id(&quot;receiverNationality&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
+      <webElementGuid>03d7c374-a35b-44bf-9c50-20aa0a9859d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[5]</value>
-      <webElementGuid>cedc649e-f2f2-463f-af76-c5fcbe9c6d09</webElementGuid>
+      <value>(//input[@type='text'])[4]</value>
+      <webElementGuid>e7cbc621-75ba-4b44-96e9-84a874fe884e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ng-select[@id='transferMethod']/div/div/div[2]/input</value>
-      <webElementGuid>c3a005d2-7b59-42e6-8c19-44988f39ca90</webElementGuid>
+      <value>//ng-select[@id='receiverNationality']/div/div/div[2]/input</value>
+      <webElementGuid>fa3f19a4-25f7-4339-b2ef-681e7499ed81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/ng-select/div/div/div[2]/input</value>
-      <webElementGuid>f41ec89a-90c3-42df-a564-fc0a612d0e2c</webElementGuid>
+      <webElementGuid>d3a5031f-d235-4cf8-9d67-dc7346932438</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>4be9827c-f00b-4d64-a5ee-36c9a30ee859</webElementGuid>
+      <webElementGuid>bb1f28fa-7afc-48bc-b8c5-346030b7e1aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_transfer-to Country</name>
+   <name>input_transferType1</name>
    <tag></tag>
-   <elementGuidId>e7a742cf-2698-45bf-aafc-05960c0b9067</elementGuidId>
+   <elementGuidId>6b05b0f8-c140-4b31-aab3-c53f7c3beb42</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#transferCountry > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
+         <value>#transferType > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[7]</value>
+         <value>//ng-select[@id='transferType']/div/div/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e8a229bf-2406-4705-837b-c68b2a73a94a</webElementGuid>
+      <webElementGuid>b3b3a4ba-83b8-4483-983a-89f7b7fc3dbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>827aa3b8-95f5-46f3-9b26-e87cedb3ff60</webElementGuid>
+      <webElementGuid>215a8839-2bd6-4b75-82a3-11ec77bdafbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>6fa5cd4e-f0fc-4357-acc4-cab8b77bbd13</webElementGuid>
+      <webElementGuid>187af452-025b-4e1d-bb6f-188db8d7f146</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>07c87269-bf25-4877-a255-900588f728bf</webElementGuid>
+      <webElementGuid>351adef6-ba3d-402c-a972-ea79c12e6ed0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,63 +54,47 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>2bdbbb15-c7b3-43ed-ac3c-aac4a661062a</webElementGuid>
+      <webElementGuid>3792d2c3-9bb8-4ec2-9cad-55068a9972ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>adb9bb98a577</value>
-      <webElementGuid>ea531696-df9d-44de-a97d-8b93b206cc56</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-activedescendant</name>
-      <type>Main</type>
-      <value>adb9bb98a577-0</value>
-      <webElementGuid>d38416af-6d99-45fa-8933-b74243f118fa</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>adb9bb98a577</value>
-      <webElementGuid>980c51d2-70ab-4571-98d3-e530b7bbc1c1</webElementGuid>
+      <value>a755e588edec</value>
+      <webElementGuid>1c64609a-9e64-45ad-8dee-efdccd9ce724</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transferCountry&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
-      <webElementGuid>d9eed242-9339-4b6e-9866-33ed390ebf47</webElementGuid>
+      <value>id(&quot;transferType&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
+      <webElementGuid>2f1ea9b8-c2d6-4d16-9c42-898f651e28d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[7]</value>
-      <webElementGuid>c061a9e4-287c-4726-81f6-aca64b2ba01f</webElementGuid>
+      <value>(//input[@type='text'])[13]</value>
+      <webElementGuid>47932b78-7471-4b85-9ecf-ba6279a94893</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ng-select[@id='transferCountry']/div/div/div[2]/input</value>
-      <webElementGuid>53e08584-d039-4969-a3c2-552548fe05a1</webElementGuid>
+      <value>//ng-select[@id='transferType']/div/div/div[2]/input</value>
+      <webElementGuid>ce728234-7270-4788-bdb4-d40501c038a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div[3]/ng-select/div/div/div[2]/input</value>
-      <webElementGuid>28dbedd3-e982-4dda-8ebc-9be356db7cd6</webElementGuid>
+      <value>//div[2]/div[3]/ng-select/div/div/div[2]/input</value>
+      <webElementGuid>c0f0c377-21ba-479d-b3eb-ddbd53278033</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>e12ffcca-5a99-4db8-8fac-a5454cb967d5</webElementGuid>
+      <webElementGuid>1d493d8d-b461-4739-9069-5f843a88b9ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

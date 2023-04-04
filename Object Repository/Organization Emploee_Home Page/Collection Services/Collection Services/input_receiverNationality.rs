@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__licenseDurationType</name>
+   <name>input_receiverNationality</name>
    <tag></tag>
-   <elementGuidId>fab68679-e08a-48e1-9985-fcaf0029b933</elementGuidId>
+   <elementGuidId>b7c7b9a1-391e-48e7-9b02-708e9cd66ef5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='licenseDurationType']</value>
+         <key>CSS</key>
+         <value>#receiverNationality > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.ng-input > #licenseDurationType</value>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8c9cc20e-5a26-463a-bb97-bd78e6c9a279</webElementGuid>
+      <webElementGuid>a8daaea8-9614-4b9a-a2d2-ded536dbe10d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>22a6bab1-b04e-4ebc-bede-112179f8fd77</webElementGuid>
+      <webElementGuid>f04a7940-59ac-4944-8007-acfb7053eae1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>36fcd24d-7cbe-4892-ba67-1fdcb04edd74</webElementGuid>
+      <webElementGuid>489cd0a0-7f83-468e-b029-0072b7c45873</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>aee118a6-fccd-41b5-9ef1-d1d0a750260d</webElementGuid>
+      <webElementGuid>13f55220-f734-48e8-80a8-282ee7f72011</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,78 +54,70 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>47566c13-a77b-49e3-bbbf-854695e03335</webElementGuid>
+      <webElementGuid>403ec082-a73f-4777-970c-8a6802c0c800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>off</value>
-      <webElementGuid>c8c81fea-eb27-4c8a-82cf-427d6caa85ec</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>licenseDurationType</value>
-      <webElementGuid>95e75ce4-8634-4b96-ba01-1806caf9f667</webElementGuid>
+      <value>a7f45f3fd16e</value>
+      <webElementGuid>14d54080-2b1d-4bf8-ae8b-d149b6c93d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-activedescendant</name>
       <type>Main</type>
-      <value>acf33bdb48b3-0</value>
-      <webElementGuid>9021ec7d-8505-49e3-88d0-dd86d164ce7b</webElementGuid>
+      <value>a7f45f3fd16e-0</value>
+      <webElementGuid>c8d13d57-66d9-42a8-b39d-80df6ac802a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>acf33bdb48b3</value>
-      <webElementGuid>50a1ca6f-9384-441f-8dd4-2d88a359badc</webElementGuid>
+      <value>a7f45f3fd16e</value>
+      <webElementGuid>51a0e00e-73b1-4a22-b817-e6e12d34c879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c124-55 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c124-55 ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-md-4 col-sm-12 mb-4 position-relative&quot;]/ng-select[@id=&quot;licenseDurationType&quot;]/div[@class=&quot;ng-select-container ng-has-value&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[@id=&quot;licenseDurationType&quot;]</value>
-      <webElementGuid>d2290f8c-745a-4ef1-9ace-bb0c4796a924</webElementGuid>
+      <value>id(&quot;receiverNationality&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
+      <webElementGuid>c5088fc7-7df4-434c-9e63-49cedbe1e61f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='licenseDurationType']</value>
-      <webElementGuid>465e5f60-200a-433d-a432-eb5b1d10aa43</webElementGuid>
+      <value>(//input[@type='text'])[4]</value>
+      <webElementGuid>1e4080ef-8c86-4b14-ae82-2c6a68b5b17a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ng-select[@id='licenseDurationType']/div/div/div[3]/input</value>
-      <webElementGuid>470fabd0-7f8a-46f9-bf61-b51fc6a650f9</webElementGuid>
+      <value>//ng-select[@id='receiverNationality']/div/div/div[2]/input</value>
+      <webElementGuid>509af842-0ce9-4a80-9485-d58a3af34ef2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/ng-select/div/div/div[3]/input</value>
-      <webElementGuid>9db1d8ec-7a22-442d-affa-b80d270089e6</webElementGuid>
+      <value>//div[2]/div/ng-select/div/div/div[2]/input</value>
+      <webElementGuid>7681b052-15f3-47a5-aa48-dac2377959f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'licenseDurationType']</value>
-      <webElementGuid>051899df-6a85-4284-a0d9-7109ed83a662</webElementGuid>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>931d8cdd-d1cc-4c40-ba0c-0946ef011a51</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
