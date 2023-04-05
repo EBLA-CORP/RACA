@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Test environment</name>
+   <name>RACA staging</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>الجمعيات والمنظمات</description>
-      <initValue>'http://eblaepm.no-ip.org:9096/eservices-ui/#/login-external'</initValue>
+      <initValue>'https://stgeportal.raca.gov.qa/eservices-ui-ext/#/login'</initValue>
       <name>Url_external</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>موظفي راكا</description>
-      <initValue>'http://eblaepm.no-ip.org:9096/eservices-ui/#/login'</initValue>
+      <initValue>'https://stgeportalint.raca.gov.qa/eservices-ui/#/login'</initValue>
       <name>Url_Internal</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>موظف جمعية أو مؤسسة خيرية</description>
-      <initValue>'11411911411'</initValue>
+      <initValue>'28881805819'</initValue>
       <name>Username_ExternalEmployee</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>مدير جمعية أو مؤسسة خيرية</description>
-      <initValue>'33433343334'</initValue>
+      <initValue>'28881805819'</initValue>
       <name>Username_ExternalManager</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -35,13 +35,13 @@
       <name>username_LicensingUser2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>موظف تراخيص 1 إيبلا</description>
-      <initValue>'eblaluser1'</initValue>
+      <description>موظف تراخيص 3 </description>
+      <initValue>''</initValue>
       <name>username_LicensingUserEbla1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>موظف تراخيص 2 إيبلا</description>
-      <initValue>'eblaluser2'</initValue>
+      <description>موظف تراخيص 4 </description>
+      <initValue>''</initValue>
       <name>username_LicensingUserEbla2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,52 +61,52 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ebla'</initValue>
+      <initValue>'P@ssw0rd'</initValue>
       <name>password1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456'</initValue>
+      <initValue>'P@ssw0rd'</initValue>
       <name>password2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>موظف + اسم الجمعية</description>
-      <initValue>'أنس'</initValue>
+      <description>اسم موظف الجمعية</description>
+      <initValue>'كوالتي'</initValue>
       <name>Verify_ExternalEmployee</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>مدير +اسم الجمعية</description>
-      <initValue>'أنس'</initValue>
+      <description>اسم  مدير الجمعية</description>
+      <initValue>'كوالتي'</initValue>
       <name>Verify_ExternalManager</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'موظف التراخيص 1'</initValue>
-      <name>Verify_LicensingUser1</name>
+      <description>أخصائي التراخيص 1+ اسم الجمعية</description>
+      <initValue>'تراخيص 1 / جمعية إفتراضية'</initValue>
+      <name>switch_LicensingUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 2+ اسم الجمعية</description>
+      <initValue>'موظف التراخيص2 / جمعية إفتراضية'</initValue>
+      <name>switch_LicensingUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 3+ اسم الجمعية</description>
+      <initValue>''</initValue>
+      <name>switch_LicensingUser3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 4+ اسم الجمعية</description>
+      <initValue>''</initValue>
+      <name>switch_LicensingUser4</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'موظف التراخيص 2'</initValue>
-      <name>Verify_LicensingUser2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'موظف التراخيص 1-ايبلا'</initValue>
-      <name>Verify_LicensingUserEbla1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'موظف التراخيص 2-ايبلا'</initValue>
-      <name>Verify_LicensingUserEbla2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'رئيس قسم التراخيص'</initValue>
+      <initValue>'رئيس قسم التراخيص والدعم'</initValue>
       <name>Verify_LicensingHead</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'مدير التراخيص و الدعم'</initValue>
+      <initValue>'مدير عام التراخيص والدعم'</initValue>
       <name>Verify_LicensingManager</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -116,7 +116,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>موظف التراخيص مستلم الطلب 1</description>
-      <initValue>'موظف التراخيص 1-ايبلا'</initValue>
+      <initValue>''</initValue>
       <name>LicensingSpecialist1st</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -130,22 +130,32 @@
       <name>LicenseNumber</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>رقم الرخصة الديناميكي الثاني</description>
+      <initValue>''</initValue>
+      <name>LicenseNumber2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>وقت انتظار تحميل صفحة تسجيل الدخول</description>
       <initValue>10</initValue>
       <name>DelayTime1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>وقت انتظار تحميل صفحة المستخدم</description>
       <initValue>15</initValue>
       <name>DelayTime2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>وقت انتظار إنجاز الإجراء على الطلب</description>
+      <initValue>10</initValue>
+      <name>DelayTime3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>مسار تحميل ملف</description>
-      <initValue>'D:\\^My All^\\Sample PDF.pdf'</initValue>
+      <initValue>'D:\\Sample PDF.pdf'</initValue>
       <name>UploadFile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>رقم تعريف المحصل(غير مستخدم حاليا)</description>
+      <description>رقم تعريف المحصل (غير مستخدم حالياً)</description>
       <initValue>''</initValue>
       <name>Collector_ID</name>
    </GlobalVariableEntity>
@@ -161,7 +171,37 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>اسم البنك</description>
-      <initValue>'اتش اس بي سي'</initValue>
+      <initValue>'الدوحة'</initValue>
       <name>BankName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم البطاقة القطرية للمخول بالتوقيع</description>
+      <initValue>'22000000000'</initValue>
+      <name>Signatory</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الحساب البنكي الأول</description>
+      <initValue>''</initValue>
+      <name>AccountNo1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الحساب البنكي الثاني</description>
+      <initValue>''</initValue>
+      <name>AccountNo2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم تعريف الموظف الديناميكي</description>
+      <initValue>''</initValue>
+      <name>Employee_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اليوم (رقماً) لتاريخ الوقت الحالي (ديناميكي)</description>
+      <initValue>''</initValue>
+      <name>CalendarDay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم تعريف مقدم الطلب (غير مستخدم حالياً)</description>
+      <initValue>''</initValue>
+      <name>Requester_ID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

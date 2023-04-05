@@ -70,12 +70,12 @@
       <name>password2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>موظف + اسم الجمعية</description>
+      <description>اسم موظف الجمعية</description>
       <initValue>'أنس'</initValue>
       <name>Verify_ExternalEmployee</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>مدير +اسم الجمعية</description>
+      <description>اسم مدير الجمعية</description>
       <initValue>'أنس'</initValue>
       <name>Verify_ExternalManager</name>
    </GlobalVariableEntity>
@@ -155,7 +155,7 @@
       <name>UploadFile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>رقم تعريف المحصل(غير مستخدم حاليا)</description>
+      <description>رقم تعريف المحصل (غير مستخدم حالياً)</description>
       <initValue>''</initValue>
       <name>Collector_ID</name>
    </GlobalVariableEntity>
@@ -200,7 +200,7 @@
       <name>CalendarDay</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>رقم تعريف مقدم الطلب (غير مستخدم حالياً)</description>
       <initValue>''</initValue>
       <name>Requester_ID</name>
    </GlobalVariableEntity>
