@@ -25,30 +25,37 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), '�
 
 WebUI.delay(2)
 
+'الدخول للخدمة'
 WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
+'تصنيف الطلب'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_requestCategory'), 'تصريح')
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_requestCategory'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(2)
 
+'نوع الطلب'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input_requestType'), 'الغاء')
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Employment/input_requestType'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(2)
 
+'تأكيد إعادة النموذج'
 WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/button_formResetAcceptance (yes button)'))
 
 WebUI.delay(2)
 
+'تبويب بيانات الموظف'
 WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/a_Employee Data TAB'))
 
+'إدخال رقم جواز السفر للموظف المطلوب إظهار بياناته'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Employment/input__passportNumber(update)'), GlobalVariable.Employee_ID)
 
+'النقر عى زر عرض لإظهار بيانات الموظف'
 WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/i__search (Employee passport or ID)'))
 
 WebUI.delay(2)

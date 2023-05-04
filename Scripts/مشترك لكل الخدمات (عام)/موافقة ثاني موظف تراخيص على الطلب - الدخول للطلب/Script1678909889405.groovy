@@ -52,6 +52,8 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Licensing Specialist/User Inbox/textarea__Accept comment'), 'موافقة ثاني موظف تراخيص')
 
+WebUI.delay(2)
+
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
 
 WebUI.delay(10)

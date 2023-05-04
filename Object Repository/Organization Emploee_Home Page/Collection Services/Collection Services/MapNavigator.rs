@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='cdk-overlay-1']/app-dialog-container/raca-maps-popup/div[2]/raca-maps/div/google-map/div/div/div/div[2]/div[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='الخريطة'])[1]/following::div[53]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

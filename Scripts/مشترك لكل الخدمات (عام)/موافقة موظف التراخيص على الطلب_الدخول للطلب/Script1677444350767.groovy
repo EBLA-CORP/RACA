@@ -48,6 +48,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Licensing Specialist/User Inbox/button_Accept'))
 
+WebUI.delay(2)
+
+'تحديد الكل كمنتهي في قائمة التحقق'
+WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Mark all as Done'), FailureHandling.OPTIONAL)
+
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Licensing Specialist/User Inbox/textarea__Accept comment'), 'موافقة موظف التراخيص')
 
 WebUI.delay(2)

@@ -38,10 +38,7 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Licensing Manager/User Inbox/textarea__Complete comment'), 'اكتمال')
 
-WebUI.sendKeys(findTestObject('Licensing Manager/User Inbox/textarea__Complete comment'), Keys.chord(Keys.TAB))
-
-WebUI.click(findTestObject('Licensing Manager/User Inbox/button_Complete (final accept popup window)_for right click'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
 
 WebUI.delay(2)
 

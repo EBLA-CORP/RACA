@@ -16,6 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
+
+def date = new Date()
+
+def day = date[Calendar.DAY_OF_MONTH]
+
+GlobalVariable.CalendarDay = String.valueOf(day)
 
 'تسجيل دخول موظف جمعية'
 WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول موظف جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -132,7 +139,7 @@ WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Transferring Indiv
         Keys.ENTER))
 
 'اوتشا'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Transferring Individuals Funds Abroad/input_OCHA'), 'اوتشا اول')
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Transferring Individuals Funds Abroad/input_OCHA'), GlobalVariable.OCHA_Main)
 
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Transferring Individuals Funds Abroad/input_OCHA'), Keys.chord(
         Keys.ENTER))
@@ -266,7 +273,28 @@ WebUI.delay(5)
 WebUI.verifyElementNotClickable(findTestObject('Organization Emploee_Home Page/Collection Services/Fundraising/button_Send (Launch)'), 
     FailureHandling.OPTIONAL)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Organization Manager_Home Page/i__Home'))
+
+WebUI.click(findTestObject('Organization Manager_Home Page/span_Services Search'))
+
+WebUI.selectOptionByLabel(findTestObject('Organization Manager_Home Page/Services Search/select_Services List'), 'تحويل أموال الأفراد إلى الخارج', 
+    false)
+
+WebUI.setText(findTestObject('Organization Manager_Home Page/Services Search/input__Serial number'), GlobalVariable.RequestNumber)
+
+WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/button_Search'))
+
+WebUI.delay(5)
+
+WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
+
+WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/span_Logs'))
+
+WebUI.delay(5)
+
+GlobalVariable.RemittanceUser = WebUI.getText(findTestObject('Organization Manager_Home Page/Services Search/td_ItemLocation'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

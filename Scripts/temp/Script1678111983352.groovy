@@ -16,58 +16,46 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat as SimpleDateFormat
 
-'تسجيل دخول مدير جمعية'
-WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول مدير جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
+def date = new Date()
 
-WebUI.click(findTestObject('Organization Manager_Home Page/span_team inbox'))
+def tomorrow_Date = date +1
+
+def day = date[Calendar.DAY_OF_MONTH]
+
+def tomorrow = tomorrow_Date[Calendar.DAY_OF_MONTH]
+
+GlobalVariable.CalendarDay = String.valueOf(day)
+
+GlobalVariable.TomorrowDay = String.valueOf(tomorrow)
+
+Random rnd = new Random()
+
+randomNumber = (1000 + rnd.nextInt(9999))
+
+
+GlobalVariable.RandomNumber = String.valueOf(randomNumber)
+
+WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول موظف جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'خدمة اعتماد نهائي لمكتب خارجي'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'طلب اعتماد نهائي لمكتب خارجي')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Licensing Manager/User Inbox/Request Number'))
+'الدخول للخدمة'
+WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Claim'))
+'نوع الطلب'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/External Office Approval/input__requestType'), 'جديد')
 
-WebUI.delay(3)
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/External Office Approval/input__requestType'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Complete'))
+' اسم المكتب الخارجي'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/External Office Approval/input__externalOfficeName'), 'مكتب كاتالون' + GlobalVariable.RandomNumber)
 
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Licensing Manager/User Inbox/textarea__Complete comment'), 'اكتمال')
-
-WebUI.delay(2)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.verifyTextNotPresent(GlobalVariable.RequestNumber, false, FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Organization Manager_Home Page/i__Home'))
-
-WebUI.click(findTestObject('Organization Manager_Home Page/span_Services Search'))
-
-WebUI.selectOptionByLabel(findTestObject('Organization Manager_Home Page/Services Search/select_Services List'), 'جمع تبرعات', 
-    false)
-
-WebUI.setText(findTestObject('Organization Manager_Home Page/Services Search/input__Serial number'), GlobalVariable.RequestNumber)
-
-WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/button_Search'))
-
-WebUI.delay(5)
-
-WebUI.rightClick(findTestObject('Licensing Manager/User Inbox/Request Number'))
-
-WebUI.click(findTestObject('Organization Manager_Home Page/Services Search/span_Logs'))
-
-WebUI.delay(2)
-
-GlobalVariable.LicensingSpecialist1st = WebUI.getText(findTestObject('Organization Manager_Home Page/Services Search/td_ItemLocation'))
-
-WebUI.delay(2)
-
-WebUI.closeBrowser()
 

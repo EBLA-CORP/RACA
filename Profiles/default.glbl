@@ -60,6 +60,26 @@
       <name>username_LicensingGeneralManager</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>موظف تحويلات بنكية 1</description>
+      <initValue>'racarem1'</initValue>
+      <name>username_RemittanceUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تحويلات بنكية 2</description>
+      <initValue>'racarem2'</initValue>
+      <name>username_RemittanceUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رئيس قسم التحويلات المالية</description>
+      <initValue>'racarem4'</initValue>
+      <name>username_RemittanceChief</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير التحويلات المالية</description>
+      <initValue>'racarem3'</initValue>
+      <name>username_RemittanceManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'ebla'</initValue>
       <name>password1</name>
@@ -100,6 +120,16 @@
       <name>switch_LicensingUser4</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>موظف تحويلات بنكية 1+ اسم الجمعية</description>
+      <initValue>'موظف تحويلات بنكية 1 / جمعية أنس'</initValue>
+      <name>switch_RemittanceUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تحويلات بنكية 2+ اسم الجمعية</description>
+      <initValue>'موظف تحويلات بنكية 2 / جمعية أنس'</initValue>
+      <name>switch_RemittanceUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'رئيس قسم التراخيص'</initValue>
       <name>Verify_LicensingHead</name>
@@ -123,6 +153,11 @@
       <description>موظف التراخيص مستلم الطلب 2</description>
       <initValue>''</initValue>
       <name>LicensingSpecialist2nd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف التحويلات البنكية مستلم الطلب</description>
+      <initValue>''</initValue>
+      <name>RemittanceUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>رقم الرخصة الديناميكي</description>
@@ -203,5 +238,70 @@
       <description>رقم تعريف مقدم الطلب (غير مستخدم حالياً)</description>
       <initValue>''</initValue>
       <name>Requester_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف أوتشا الرئيسي</description>
+      <initValue>'العربية 2222'</initValue>
+      <name>OCHA_Main</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف أوتشا الفرعي</description>
+      <initValue>''</initValue>
+      <name>OCHA_Sub</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف داك الرئيسي</description>
+      <initValue>'داك1'</initValue>
+      <name>DAC_Main</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف داك الفرعي</description>
+      <initValue>''</initValue>
+      <name>DAC_Sub</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>هدف التنمية المستدامة الأول</description>
+      <initValue>'هدف أول'</initValue>
+      <name>FirstSDGoal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>هدف التنمية المستدامة الثاني</description>
+      <initValue>'هدف ثاني'</initValue>
+      <name>SecondSDGoal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>هدف التنمية المستدامة الثالث</description>
+      <initValue>'ثالث'</initValue>
+      <name>ThirdSDGoal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>آلية التخارج</description>
+      <initValue>'t5arg 1'</initValue>
+      <name>ExitMechanism</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مؤشرات تقييم المشروع</description>
+      <initValue>'مؤشر 1'</initValue>
+      <name>Indicator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>الرقم التسلسلي للنموذج</description>
+      <initValue>''</initValue>
+      <name>TemplateSerial</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف الطلب (الجهة)</description>
+      <initValue>'الحكومات الإقليمية الرسمية'</initValue>
+      <name>Request_Classification</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>يوم غدٍ (رقماً) لتاريخ الوقت الحالي (ديناميكي)</description>
+      <initValue>''</initValue>
+      <name>TomorrowDay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم عشوائي</description>
+      <initValue>''</initValue>
+      <name>RandomNumber</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

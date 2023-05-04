@@ -45,18 +45,6 @@ WebUI.click(findTestObject('Organization Emploee_Home Page/Collection Services/C
 
 WebUI.delay(2)
 
-'نوع الترخيص'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_UNOCHA'), 
-    'دائمة')
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_UNOCHA'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_UNOCHA'), 
-    Keys.chord(Keys.TAB))
-
-WebUI.delay(2)
-
 'نوع خدمة التحصيل) تصنيف الطلب)'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_requestClassification'), 
     GlobalVariable.CollectionServicesType)
@@ -64,8 +52,14 @@ WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services
 WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_requestClassification'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_requestClassification'), 
-    Keys.chord(Keys.TAB))
+WebUI.delay(2)
+
+'نوع الترخيص'
+WebUI.setText(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_licenseType'), 
+    'دائمة')
+
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/Collection Services/Collection Services/input_licenseType'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(2)
 

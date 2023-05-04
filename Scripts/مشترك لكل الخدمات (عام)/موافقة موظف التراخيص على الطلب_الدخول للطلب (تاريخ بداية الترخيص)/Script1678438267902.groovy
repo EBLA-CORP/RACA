@@ -50,12 +50,17 @@ WebUI.click(findTestObject('Licensing Specialist/User Inbox/button_Accept'))
 
 WebUI.delay(2)
 
+'تحديد الكل كمنتهي في قائمة التحقق'
+WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Mark all as Done'), FailureHandling.OPTIONAL)
+
+WebUI.delay(2)
+
 'تاريخ بدء العمل'
 WebUI.click(findTestObject('Licensing Specialist/User Inbox/div__licenseStartDate'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'))
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_TomorrowDay'))
 
 WebUI.delay(2)
 
