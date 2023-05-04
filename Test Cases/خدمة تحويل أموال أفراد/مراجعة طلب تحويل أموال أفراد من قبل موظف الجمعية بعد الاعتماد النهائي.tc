@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>مراجعة طلب تحويل أموال أفراد من قبل موظف الجمعية بعد الاعتماد النهائي</name>
+   <tag>Org</tag>
+   <comment></comment>
+   <testCaseGuid>ca8f11c7-8025-4c0f-bc0a-351fcb8434b5</testCaseGuid>
+</TestCaseEntity>

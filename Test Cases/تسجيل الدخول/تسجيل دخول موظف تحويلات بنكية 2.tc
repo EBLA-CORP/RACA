@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>تسجيل دخول موظف تحويلات بنكية 2</name>
+   <tag>Licensing</tag>
+   <comment></comment>
+   <testCaseGuid>dbcb7c71-ee3a-41da-ab28-f6728afa5d4c</testCaseGuid>
+</TestCaseEntity>

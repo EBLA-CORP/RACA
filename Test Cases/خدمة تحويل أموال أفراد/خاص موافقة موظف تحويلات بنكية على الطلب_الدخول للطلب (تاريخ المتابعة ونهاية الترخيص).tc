@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>خاص موافقة موظف تحويلات بنكية على الطلب_الدخول للطلب (تاريخ المتابعة ونهاية الترخيص)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0f78216-a7f8-4582-8237-087fa9ab0a66</testCaseGuid>
+</TestCaseEntity>

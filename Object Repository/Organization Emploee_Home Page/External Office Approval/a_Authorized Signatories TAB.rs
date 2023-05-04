@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Authorized Signatories TAB</name>
+   <tag></tag>
+   <elementGuidId>48038b2d-e2fc-4962-8ce6-ae4b248ed1a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='tab-list-1']/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a71c2a2e-3721-4844-9835-177bf9b8ffe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-current</name>
+      <type>Main</type>
+      <value>page</value>
+      <webElementGuid>77654adf-b40b-4ff3-b975-60cb133d9b7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bs-toggle</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>4d035b4d-61c0-4b31-8830-7a0a382c5866</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>3037ea86-027b-4e4d-88a8-a6423e84e92d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link position-relative tab-link</value>
+      <webElementGuid>7f56df2c-c4e6-471b-9b7b-11ce812541d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>بيانات مديري المكتب والمخولين بالتوقيع </value>
+      <webElementGuid>2800e764-0afb-4dc6-9923-065cb91042fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1&quot;)/li[@class=&quot;nav-item ng-star-inserted&quot;]/a[@class=&quot;nav-link position-relative tab-link&quot;]</value>
+      <webElementGuid>29907b3a-41cd-4910-bbb7-fd5365c2c81c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='tab-list-1']/li[3]/a</value>
+      <webElementGuid>10ddf4a9-cdd8-4958-b14c-56d22edf0cb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'بيانات مديري المكتب والمخولين بالتوقيع')]</value>
+      <webElementGuid>1524a8f1-6c13-45ff-b771-16160ed5999d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='بيانات الحسابات البنكية'])[1]/following::a[1]</value>
+      <webElementGuid>ead2e330-a335-444d-927b-cda2a88c83f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='معلومات اساسية'])[1]/following::a[2]</value>
+      <webElementGuid>523e633c-4cd2-46bb-a615-1ef152b632d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الأفرع'])[1]/preceding::a[1]</value>
+      <webElementGuid>768ced04-949b-4e0d-8192-8aa278b56ea3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='المرفقات'])[1]/preceding::a[2]</value>
+      <webElementGuid>326ab9b3-1227-43ea-a487-63a86f94e53c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='بيانات مديري المكتب والمخولين بالتوقيع']/parent::*</value>
+      <webElementGuid>5ce6df67-c798-48c1-a754-0b2d6daffc1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tabs-list/ul/li[3]/a</value>
+      <webElementGuid>fa14006d-d96e-43b6-8817-8914f3a8e381</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'بيانات مديري المكتب والمخولين بالتوقيع ' or . = 'بيانات مديري المكتب والمخولين بالتوقيع ')]</value>
+      <webElementGuid>39476f5b-b92f-4e5d-b63b-53021184e5d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

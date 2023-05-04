@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>موافقة موظف التراخيص على الطلب_الدخول للطلب (تاريخ بداية الرخصة-تاريخ المتابعة-مدة الترخيص(6)-شروط مخصصة)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1cd86db6-ecf3-4175-808c-a4d0217d5b24</testCaseGuid>
+</TestCaseEntity>

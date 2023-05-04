@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__region (1)</name>
+   <tag></tag>
+   <elementGuidId>6d9f07af-3d16-44a0-96c6-d8031d1b600b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id='region'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-6.col-md-4.mb-4.position-relative.ng-star-inserted > #region</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a71b6152-75e2-4da3-ae74-0ae19335a46e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>a7c6906a-8cdf-4420-b5a1-e3f69e6f9dd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-pristine ng-invalid ng-star-inserted</value>
+      <webElementGuid>1dbaaaba-70a3-482e-a005-0461ad0cb844</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>region</value>
+      <webElementGuid>f3f315d8-ffd8-4a2a-ad5b-0e6cb1f9d81d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c34-492 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c34-492 ng-star-inserted&quot;]/work-areas[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;row ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;col-sm-6 col-md-4 mb-4 position-relative ng-star-inserted&quot;]/input[@id=&quot;region&quot;]</value>
+      <webElementGuid>c9c5cffb-9226-481f-b627-95845decc3f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@id='region'])[2]</value>
+      <webElementGuid>96684944-fe0c-4ecc-bcba-119e327fbbbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[3]/div/work-areas/form/div[2]/input</value>
+      <webElementGuid>d41ce767-b3c3-4f0c-b770-9db19ac16454</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/input</value>
+      <webElementGuid>cd69e725-a25d-4ab4-b700-a7259f35df9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'region']</value>
+      <webElementGuid>54c6e401-72c6-419b-8bf2-8e0342189c8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

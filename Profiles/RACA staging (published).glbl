@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>RACA staging (published)</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>الجمعيات والمنظمات</description>
+      <initValue>'https://stgeportal.raca.gov.qa/eservices-ui-ext/#/login-external'</initValue>
+      <name>Url_external</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظفي راكا</description>
+      <initValue>'https://stgeportal.raca.gov.qa/eservices-ui-ext/#/login'</initValue>
+      <name>Url_Internal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف جمعية أو مؤسسة خيرية</description>
+      <initValue>'28881805819'</initValue>
+      <name>Username_ExternalEmployee</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير جمعية أو مؤسسة خيرية</description>
+      <initValue>'28881805819'</initValue>
+      <name>Username_ExternalManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تراخيص 1</description>
+      <initValue>'luser1'</initValue>
+      <name>username_LicensingUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تراخيص 2</description>
+      <initValue>'luser2'</initValue>
+      <name>username_LicensingUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تراخيص 3 </description>
+      <initValue>''</initValue>
+      <name>username_LicensingUserEbla1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تراخيص 4 </description>
+      <initValue>''</initValue>
+      <name>username_LicensingUserEbla2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رئيس قسم التراخيص والدعم</description>
+      <initValue>'racauser2'</initValue>
+      <name>username_LicensingHead</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير التراخيص والدعم</description>
+      <initValue>'racauser4'</initValue>
+      <name>username_LicensingManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير عام التراخيص والدعم</description>
+      <initValue>'racauser5'</initValue>
+      <name>username_LicensingGeneralManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تحويلات بنكية 1</description>
+      <initValue>'racarem1'</initValue>
+      <name>username_RemittanceUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تحويلات بنكية 2</description>
+      <initValue>'racarem2'</initValue>
+      <name>username_RemittanceUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رئيس قسم التحويلات المالية</description>
+      <initValue>'racarem4'</initValue>
+      <name>username_RemittanceChief</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مدير التحويلات المالية</description>
+      <initValue>'racarem3'</initValue>
+      <name>username_RemittanceManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'P@ssw0rd'</initValue>
+      <name>password1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'P@ssw0rd'</initValue>
+      <name>password2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اسم موظف الجمعية</description>
+      <initValue>'كوالتي'</initValue>
+      <name>Verify_ExternalEmployee</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اسم مدير الجمعية</description>
+      <initValue>'كوالتي'</initValue>
+      <name>Verify_ExternalManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 1+ اسم الجمعية</description>
+      <initValue>'تراخيص 1 / جمعية إفتراضية'</initValue>
+      <name>switch_LicensingUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 2+ اسم الجمعية</description>
+      <initValue>'موظف التراخيص2 / جمعية إفتراضية'</initValue>
+      <name>switch_LicensingUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 3+ اسم الجمعية</description>
+      <initValue>''</initValue>
+      <name>switch_LicensingUser3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>أخصائي التراخيص 4+ اسم الجمعية</description>
+      <initValue>''</initValue>
+      <name>switch_LicensingUser4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تحويلات بنكية 1+ اسم الجمعية</description>
+      <initValue>'اخصائي تحويلات المالية 1 / جمعية إفتراضية'</initValue>
+      <name>switch_RemittanceUser1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف تحويلات بنكية 2+ اسم الجمعية</description>
+      <initValue>'اخصائي تحويلات المالية 2 / جمعية إفتراضية'</initValue>
+      <name>switch_RemittanceUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'رئيس قسم التراخيص والدعم'</initValue>
+      <name>Verify_LicensingHead</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'مدير عام التراخيص والدعم'</initValue>
+      <name>Verify_LicensingManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الطلب الديناميكي</description>
+      <initValue>''</initValue>
+      <name>RequestNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف التراخيص مستلم الطلب 1</description>
+      <initValue>''</initValue>
+      <name>LicensingSpecialist1st</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف التراخيص مستلم الطلب 2</description>
+      <initValue>''</initValue>
+      <name>LicensingSpecialist2nd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>موظف التحويلات البنكية مستلم الطلب</description>
+      <initValue>''</initValue>
+      <name>RemittanceUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الرخصة الديناميكي</description>
+      <initValue>''</initValue>
+      <name>LicenseNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الرخصة الديناميكي الثاني</description>
+      <initValue>''</initValue>
+      <name>LicenseNumber2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>وقت انتظار تحميل صفحة تسجيل الدخول</description>
+      <initValue>10</initValue>
+      <name>DelayTime1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>وقت انتظار تحميل صفحة المستخدم</description>
+      <initValue>15</initValue>
+      <name>DelayTime2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>وقت انتظار إنجاز الإجراء على الطلب</description>
+      <initValue>10</initValue>
+      <name>DelayTime3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مسار تحميل ملف</description>
+      <initValue>'C:\\Sample PDF.pdf'</initValue>
+      <name>UploadFile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم تعريف المحصل (غير مستخدم حالياً)</description>
+      <initValue>''</initValue>
+      <name>Collector_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اكتب نوع خدمة التحصيل هنا</description>
+      <initValue>'اعتماد صناديق التحصيل'</initValue>
+      <name>CollectionServicesType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>العملة</description>
+      <initValue>'ريال قطرى'</initValue>
+      <name>Currency</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اسم البنك</description>
+      <initValue>'الدوحة'</initValue>
+      <name>BankName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم البطاقة القطرية للمخول بالتوقيع</description>
+      <initValue>'22000000000'</initValue>
+      <name>Signatory</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الحساب البنكي الأول</description>
+      <initValue>''</initValue>
+      <name>AccountNo1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم الحساب البنكي الثاني</description>
+      <initValue>''</initValue>
+      <name>AccountNo2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم تعريف الموظف الديناميكي</description>
+      <initValue>''</initValue>
+      <name>Employee_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>اليوم (رقماً) لتاريخ الوقت الحالي (ديناميكي)</description>
+      <initValue>''</initValue>
+      <name>CalendarDay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم تعريف مقدم الطلب (غير مستخدم حالياً)</description>
+      <initValue>''</initValue>
+      <name>Requester_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف أوتشا الرئيسي</description>
+      <initValue>'العربية'</initValue>
+      <name>OCHA_Main</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف أوتشا الفرعي</description>
+      <initValue>''</initValue>
+      <name>OCHA_Sub</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف داك الرئيسي</description>
+      <initValue>'العربية 025'</initValue>
+      <name>DAC_Main</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف داك الفرعي</description>
+      <initValue>''</initValue>
+      <name>DAC_Sub</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>هدف التنمية المستدامة الأول</description>
+      <initValue>'هدف1'</initValue>
+      <name>FirstSDGoal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>هدف التنمية المستدامة الثاني</description>
+      <initValue>'هدف2'</initValue>
+      <name>SecondSDGoal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>هدف التنمية المستدامة الثالث</description>
+      <initValue>'هدف3'</initValue>
+      <name>ThirdSDGoal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>آلية التخارج</description>
+      <initValue>'تصنيف اول'</initValue>
+      <name>ExitMechanism</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>مؤشرات تقييم المشروع</description>
+      <initValue>'جهة تسجيل 1'</initValue>
+      <name>Indicator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>الرقم التسلسلي للنموذج</description>
+      <initValue>''</initValue>
+      <name>TemplateSerial</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>تصنيف الطلب (الجهة)</description>
+      <initValue>'الحكومات الإقليمية الرسمية'</initValue>
+      <name>Request_Classification</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>يوم غدٍ (رقماً) لتاريخ الوقت الحالي (ديناميكي)</description>
+      <initValue>''</initValue>
+      <name>TomorrowDay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>رقم عشوائي</description>
+      <initValue>''</initValue>
+      <name>RandomNumber</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_receiverNationality</name>
+   <name>input__projectWorkArea</name>
    <tag></tag>
-   <elementGuidId>b7c7b9a1-391e-48e7-9b02-708e9cd66ef5</elementGuidId>
+   <elementGuidId>dcd7ad8d-7df7-48d9-babb-9c5cc10b4748</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#receiverNationality > div.ng-select-container > div.ng-value-container > div.ng-input > input[type=&quot;text&quot;]</value>
+         <value>div.ng-input > #projectWorkArea</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='text'])[4]</value>
+         <value>//input[@id='projectWorkArea']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a8daaea8-9614-4b9a-a2d2-ded536dbe10d</webElementGuid>
+      <webElementGuid>3de4de80-f512-4d3d-be7c-afdd970a1ff6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>f04a7940-59ac-4944-8007-acfb7053eae1</webElementGuid>
+      <webElementGuid>652abc9e-da18-48a7-9787-ea4bc1e3f92b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>489cd0a0-7f83-468e-b029-0072b7c45873</webElementGuid>
+      <webElementGuid>a7b6b1c5-ee5d-4e8c-9a58-9fe2cfdafed5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>13f55220-f734-48e8-80a8-282ee7f72011</webElementGuid>
+      <webElementGuid>c6961529-bedc-4f1f-b45a-c7ce6c1d6253</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,70 +54,62 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>403ec082-a73f-4777-970c-8a6802c0c800</webElementGuid>
+      <webElementGuid>a3c224da-91dc-42f9-988b-4483ec4422ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>a7f45f3fd16e</value>
-      <webElementGuid>14d54080-2b1d-4bf8-ae8b-d149b6c93d5a</webElementGuid>
+      <value>off</value>
+      <webElementGuid>aaa7cfd1-8f3c-4afa-aee5-d76c576ab550</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-activedescendant</name>
+      <name>id</name>
       <type>Main</type>
-      <value>a7f45f3fd16e-0</value>
-      <webElementGuid>c8d13d57-66d9-42a8-b39d-80df6ac802a2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>a7f45f3fd16e</value>
-      <webElementGuid>51a0e00e-73b1-4a22-b817-e6e12d34c879</webElementGuid>
+      <value>projectWorkArea</value>
+      <webElementGuid>5a81a649-155c-45ff-b088-3d3216328c46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;receiverNationality&quot;)/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[1]</value>
-      <webElementGuid>c5088fc7-7df4-434c-9e63-49cedbe1e61f</webElementGuid>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c34-300 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c34-300 ng-star-inserted&quot;]/fieldset[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4 col-sm-12 mb-4 ng-select-wrapper&quot;]/ng-select[@id=&quot;projectWorkArea&quot;]/div[@class=&quot;ng-select-container&quot;]/div[@class=&quot;ng-value-container&quot;]/div[@class=&quot;ng-input&quot;]/input[@id=&quot;projectWorkArea&quot;]</value>
+      <webElementGuid>09428af1-45b0-44a5-9f59-7831ee0c23a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[4]</value>
-      <webElementGuid>1e4080ef-8c86-4b14-ae82-2c6a68b5b17a</webElementGuid>
+      <value>//input[@id='projectWorkArea']</value>
+      <webElementGuid>9b1d50fc-1473-4dfe-94ff-a18f96b95537</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ng-select[@id='receiverNationality']/div/div/div[2]/input</value>
-      <webElementGuid>509af842-0ce9-4a80-9485-d58a3af34ef2</webElementGuid>
+      <value>//ng-select[@id='projectWorkArea']/div/div/div[2]/input</value>
+      <webElementGuid>a0be5d0e-f3f6-4e03-8abf-e661a6871bee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/ng-select/div/div/div[2]/input</value>
-      <webElementGuid>7681b052-15f3-47a5-aa48-dac2377959f3</webElementGuid>
+      <value>//div[3]/ng-select/div/div/div[2]/input</value>
+      <webElementGuid>1cc828f3-7189-4f23-be84-51c6872e7ff5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text']</value>
-      <webElementGuid>931d8cdd-d1cc-4c40-ba0c-0946ef011a51</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'projectWorkArea']</value>
+      <webElementGuid>8e1a98b2-2a6d-4d54-9ed5-07d99da330fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

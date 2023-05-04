@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Template Serial</name>
+   <tag></tag>
+   <elementGuidId>3e515d3c-3011-4cf3-9f22-5024f1bc5e48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-12.col-md-4.mb-4.ng-star-inserted > div.input-group > span.form-control.input-disabled</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e-service-wrapper']/case-info/div/div[2]/div[2]/div/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>485c07a3-bc1d-4b98-bec5-16cec4f6606d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control input-disabled</value>
+      <webElementGuid>ed288efc-85b1-4920-ab8e-81204d389f35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TMP/911dd/2023/72</value>
+      <webElementGuid>6625b40f-b251-45bc-bf4f-2067f26dab6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e-service-wrapper&quot;)/case-info[1]/div[@class=&quot;task-details&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-4 mb-4 ng-star-inserted&quot;]/div[@class=&quot;input-group&quot;]/span[@class=&quot;form-control input-disabled&quot;]</value>
+      <webElementGuid>3ed20487-c35f-4e0f-aa34-5fac4ed4da0f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e-service-wrapper']/case-info/div/div[2]/div[2]/div/span[2]</value>
+      <webElementGuid>b9568462-dc16-460c-a642-9be3fed018ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الرقم التسلسلى للنموذج'])[1]/following::span[2]</value>
+      <webElementGuid>78c8467b-c7dc-4090-8c94-057bb6a293e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اعتماد نهائي'])[1]/following::span[2]</value>
+      <webElementGuid>54f1f2e7-2da9-4582-adbe-d0ec4382603c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='معلومات اساسية'])[1]/preceding::span[1]</value>
+      <webElementGuid>f71e0695-86d8-4170-bb81-eb08b11248d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='بيانات تصنيف المشروع'])[1]/preceding::span[2]</value>
+      <webElementGuid>e70f637c-c7c2-4045-8b43-2b498e3b3b0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='TMP/911dd/2023/72']/parent::*</value>
+      <webElementGuid>95815bf2-0f5a-4640-810e-3857165bb589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/span[2]</value>
+      <webElementGuid>ecb3f19d-a78a-4480-bc3b-dde2ff1775c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'TMP/911dd/2023/72' or . = 'TMP/911dd/2023/72')]</value>
+      <webElementGuid>a1367f01-2837-470f-9f5c-0e3ff4f44f48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

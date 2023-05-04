@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_template data display icon (eye)</name>
+   <tag></tag>
+   <elementGuidId>22d17da8-cb7c-440a-911a-89d53f42eb57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-eye.text-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='e-service-wrapper']/case-info/div/div[2]/div[2]/div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>037c8a7b-f9aa-4a54-9790-4562682869ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-eye text-primary</value>
+      <webElementGuid>78623044-5076-4e60-a3ed-c1b42e90c881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;e-service-wrapper&quot;)/case-info[1]/div[@class=&quot;task-details&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-4 mb-4 ng-star-inserted&quot;]/div[@class=&quot;input-group&quot;]/a[@class=&quot;input-group-text&quot;]/i[@class=&quot;mdi mdi-eye text-primary&quot;]</value>
+      <webElementGuid>f9033bdb-387b-47ac-978f-139317179f58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='e-service-wrapper']/case-info/div/div[2]/div[2]/div/a/i</value>
+      <webElementGuid>7a666e59-3ce5-4b0a-9f09-a708d19e760f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>1e750e66-a779-4ec3-b0f0-e07bcd334225</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

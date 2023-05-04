@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__Add council details (plus-box)</name>
+   <tag></tag>
+   <elementGuidId>5e7ff755-d28d-48bf-92c0-0ca22361489f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab[4]/div/management-council/div/app-page-header/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>management-council.ng-star-inserted > div.row > app-page-header.col-md-6.col-sm-12 > div.d-flex.flex-row > div.align-items-center > button.btn.btn-link.outline-none.ng-star-inserted > i.mdi.mdi-plus-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>e18e84c0-9157-435b-8c33-cedfc14297d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-plus-box</value>
+      <webElementGuid>e2b2b5a8-4fb6-46e2-846d-94eba8030c6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c34-103 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c34-103 ng-star-inserted&quot;]/management-council[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/app-page-header[@class=&quot;col-md-6 col-sm-12&quot;]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;align-items-center&quot;]/button[@class=&quot;btn btn-link outline-none ng-star-inserted&quot;]/i[@class=&quot;mdi mdi-plus-box&quot;]</value>
+      <webElementGuid>e38892fb-54da-4176-a61a-883ef7e8f9c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[4]/div/management-council/div/app-page-header/div/div/button/i</value>
+      <webElementGuid>ae1ddf2d-22f2-41f0-a26a-5b8e1254a77c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//management-council/div/app-page-header/div/div/button/i</value>
+      <webElementGuid>bcb6d997-a188-485f-bacb-0899f073caac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

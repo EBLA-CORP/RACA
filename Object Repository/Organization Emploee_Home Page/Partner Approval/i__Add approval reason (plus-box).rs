@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__Add approval reason (plus-box)</name>
+   <tag></tag>
+   <elementGuidId>b89dc92c-67dd-4940-9f11-a3a8d09fb35f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab[7]/div/approval-reason/div/app-page-header/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>approval-reason.ng-star-inserted > div.row > app-page-header.col-md-6.col-sm-12 > div.d-flex.flex-row > div.align-items-center > button.btn.btn-link.outline-none.ng-star-inserted > i.mdi.mdi-plus-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>74d538bc-7b8b-47a4-a126-d475dce79057</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-plus-box</value>
+      <webElementGuid>c2b742c1-76de-42f6-b4de-e8c3acdc49a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c34-106 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c34-106 ng-star-inserted&quot;]/approval-reason[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/app-page-header[@class=&quot;col-md-6 col-sm-12&quot;]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;align-items-center&quot;]/button[@class=&quot;btn btn-link outline-none ng-star-inserted&quot;]/i[@class=&quot;mdi mdi-plus-box&quot;]</value>
+      <webElementGuid>d232b904-12a0-43e0-855e-c5c72598707d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[7]/div/approval-reason/div/app-page-header/div/div/button/i</value>
+      <webElementGuid>87532bb3-f3a3-473f-810e-a2012300378d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//approval-reason/div/app-page-header/div/div/button/i</value>
+      <webElementGuid>c7fbfa5f-ba82-4cdf-8ead-c1fdd2fbefdf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__Step Checklist</name>
+   <tag></tag>
+   <elementGuidId>717fbf02-1ac6-4640-bca3-541cc0ff76a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='check-list-wrapper']/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.icon-btn.position-absolute.end-100.top-0.m-0.p-2.shadow.shadow-sm.rounded-1.bg-white.border.border-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>372411d4-b3b1-4b40-8df4-622ca93daace</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn icon-btn position-absolute end-100 top-0 m-0 p-2 shadow shadow-sm rounded-1 bg-white border border-1</value>
+      <webElementGuid>5c0dd757-b280-4e2a-9666-2fc385a8a509</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tooltip559813</value>
+      <webElementGuid>c7494251-a45f-47a6-bfc7-50002ad67e21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;check-list-wrapper&quot;)/button[@class=&quot;btn icon-btn position-absolute end-100 top-0 m-0 p-2 shadow shadow-sm rounded-1 bg-white border border-1&quot;]</value>
+      <webElementGuid>0351cc65-85a6-41a6-9f93-02d1534a8778</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='check-list-wrapper']/button</value>
+      <webElementGuid>63ff8a25-c305-4b2b-b0ab-cbf1d1c8cfcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='خارجي فرعي'])[1]/following::button[1]</value>
+      <webElementGuid>dacf2ad3-91af-4039-86a3-c9f1f3278935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='خارجي'])[1]/following::button[1]</value>
+      <webElementGuid>06e62777-8d68-4e55-9600-f09c1692d7b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='قائمة مراجعة الخطوة'])[1]/preceding::button[1]</value>
+      <webElementGuid>78aa4b84-aa82-461d-a183-fb49ec59a6a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تاكد من المرفقات'])[1]/preceding::button[1]</value>
+      <webElementGuid>06ffe569-ca8b-4b75-9786-a61616572f36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//step-check-list/div/button</value>
+      <webElementGuid>62646c52-31cc-49d1-bead-51b0b4eb418e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

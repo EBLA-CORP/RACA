@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__Add contact officer details (plus-box)</name>
+   <tag></tag>
+   <elementGuidId>fd124212-0b43-45b2-96f4-f50057bd5350</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab[6]/div/contact-officer/div/app-page-header/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>contact-officer.ng-star-inserted > div.row > app-page-header.col-md-6.col-sm-12 > div.d-flex.flex-row > div.align-items-center > button.btn.btn-link.outline-none.ng-star-inserted > i.mdi.mdi-plus-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>77ec5a14-676d-401e-9d2d-522be547d927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-plus-box</value>
+      <webElementGuid>dba05c4a-8a3a-4dec-9d27-8cfdc8fd12a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c34-105 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c34-105 ng-star-inserted&quot;]/contact-officer[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/app-page-header[@class=&quot;col-md-6 col-sm-12&quot;]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;align-items-center&quot;]/button[@class=&quot;btn btn-link outline-none ng-star-inserted&quot;]/i[@class=&quot;mdi mdi-plus-box&quot;]</value>
+      <webElementGuid>ade1ac77-058c-445c-9a2a-0011a11a0bdb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[6]/div/contact-officer/div/app-page-header/div/div/button/i</value>
+      <webElementGuid>e887c861-c366-446c-a21e-1978c1f9af8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//contact-officer/div/app-page-header/div/div/button/i</value>
+      <webElementGuid>5f0e5d95-da71-498e-a0fd-5cea4c0e45ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

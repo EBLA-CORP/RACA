@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>تسجيل دخول مدير التحويلات المالية</name>
+   <tag>Licensing</tag>
+   <comment></comment>
+   <testCaseGuid>1e5010cf-c303-4b17-9785-7fe8ff02d71d</testCaseGuid>
+</TestCaseEntity>

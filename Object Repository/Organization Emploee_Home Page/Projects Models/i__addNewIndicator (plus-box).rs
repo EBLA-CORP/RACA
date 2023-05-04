@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__addNewIndicator (plus-box)</name>
+   <tag></tag>
+   <elementGuidId>807c2276-359c-4ce5-92c3-73b0d8d244a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ng-tns-c34-105.ng-star-inserted > fieldset.ng-star-inserted > div.row > div.d-flex.align-items-center.justify-content-start > button.btn.text-primary.icon-btn > i.mdi.mdi-plus-box</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab[5]/div/fieldset/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>6b82716f-b9d9-497d-be54-b48e8b8d85bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-plus-box</value>
+      <webElementGuid>88fc12ae-8d4f-436b-846c-78d4d8bd0ed7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c34-105 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c34-105 ng-star-inserted&quot;]/fieldset[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;d-flex align-items-center justify-content-start&quot;]/button[@class=&quot;btn text-primary icon-btn&quot;]/i[@class=&quot;mdi mdi-plus-box&quot;]</value>
+      <webElementGuid>b77b2383-3f17-48b3-a635-9ed6e14afbcf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[5]/div/fieldset/div/div/button/i</value>
+      <webElementGuid>f6327c5a-b3d5-4fec-bb7d-cd36037db867</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tab[5]/div/fieldset/div/div/button/i</value>
+      <webElementGuid>0d5d667c-51b5-4b18-a296-f93c16d8a2ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

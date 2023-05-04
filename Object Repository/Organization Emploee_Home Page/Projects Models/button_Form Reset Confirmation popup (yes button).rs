@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Form Reset Confirmation popup (yes button)</name>
+   <tag></tag>
+   <elementGuidId>50379411-215a-4f96-a310-8947bfc3c1ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.shadow.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='سيؤدي هذا إلى إعادة تعيين النموذج.هل تريد الاستمرار؟'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>96cdbce2-7b11-4a71-97e0-7de51a1897e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary shadow ng-star-inserted</value>
+      <webElementGuid>fcaf0a1d-8a57-48a9-af25-0026ecca7a3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>نعم</value>
+      <webElementGuid>027d77e2-4b33-4f0f-97b8-76d3cf68ff69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-5&quot;)/app-dialog-container[@class=&quot;ng-tns-c3-411 ng-trigger ng-trigger-dialogContainer ng-star-inserted rounded shadow&quot;]/app-predefined-dialog[@class=&quot;dialog-item ng-star-inserted&quot;]/div[@class=&quot;dialog-actions justify-content-center&quot;]/button[@class=&quot;btn btn-primary shadow ng-star-inserted&quot;]</value>
+      <webElementGuid>9e45407d-41d8-40fd-a4ac-63366dd43f09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-5']/app-dialog-container/app-predefined-dialog/div[2]/button</value>
+      <webElementGuid>7900c197-d140-4c0e-9af3-d4cd50e0ee68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='سيؤدي هذا إلى إعادة تعيين النموذج.هل تريد الاستمرار؟'])[1]/following::button[1]</value>
+      <webElementGuid>fa236f3a-b50d-4b51-9cd5-2955bc84375c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[1]</value>
+      <webElementGuid>ac0b7f00-a70b-4c77-88fd-d9340547ea96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='لا'])[6]/preceding::button[1]</value>
+      <webElementGuid>17fcdaa4-b085-4c5f-9a26-428d4374b5c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='نعم']/parent::*</value>
+      <webElementGuid>d4a37c89-8f59-4d8d-9fe0-879224f29b67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-predefined-dialog/div[2]/button</value>
+      <webElementGuid>539ed56b-b6d7-4464-a0a3-efa6e14f47c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'نعم' or . = 'نعم')]</value>
+      <webElementGuid>25df640e-7c67-4d44-bae3-c3b72b585d9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

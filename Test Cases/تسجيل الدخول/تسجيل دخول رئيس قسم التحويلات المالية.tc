@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>تسجيل دخول رئيس قسم التحويلات المالية</name>
+   <tag>Licensing</tag>
+   <comment></comment>
+   <testCaseGuid>974eedca-b171-4fdc-8f3d-daaca9c1c999</testCaseGuid>
+</TestCaseEntity>

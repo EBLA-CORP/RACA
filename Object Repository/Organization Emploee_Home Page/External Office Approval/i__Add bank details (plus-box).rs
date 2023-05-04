@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__Add bank details (plus-box)</name>
+   <tag></tag>
+   <elementGuidId>4d8f826e-1681-43d5-9b63-4ed2b470078b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tab-list-1-content']/tab[2]/div/bank-account/div/app-page-header/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-plus-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>82f8ed86-33f8-4db9-80c6-d1232977f941</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-plus-box</value>
+      <webElementGuid>226b981d-90aa-402d-a90e-18745910f63e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-list-1-content&quot;)/tab[@class=&quot;ng-tns-c34-294 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c34-294 ng-star-inserted&quot;]/bank-account[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/app-page-header[@class=&quot;col-md-6 col-sm-12&quot;]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;align-items-center&quot;]/button[@class=&quot;btn btn-link outline-none ng-star-inserted&quot;]/i[@class=&quot;mdi mdi-plus-box&quot;]</value>
+      <webElementGuid>6ddc691f-c30d-4956-a497-6d02658d4c14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-list-1-content']/tab[2]/div/bank-account/div/app-page-header/div/div/button/i</value>
+      <webElementGuid>c0d63be6-e817-4b01-8a05-e597de1fb94f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-page-header/div/div/button/i</value>
+      <webElementGuid>a3333b4c-e212-4d77-bdc6-9c36c5e1c3a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
