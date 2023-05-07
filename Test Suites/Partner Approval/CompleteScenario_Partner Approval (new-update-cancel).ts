@@ -26,10 +26,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ea18cb2a-484d-452b-9857-2694faaa0c1a</guid>
+      <guid>7a8957d2-ae2f-4b8b-bf12-e3305a3a0221</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة موظف التراخيص على الطلب_الدخول للطلب (تاريخ بداية الرخصة-تاريخ المتابعة-مدة الترخيص(1)-شروط مخصصة)</testCaseId>
+      <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة موظف التراخيص على الطلب_الدخول للطلب (تاريخ بداية الرخصة-تاريخ المتابعة-مدة الترخيص(6)-شروط مخصصة)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -36,10 +36,6 @@ WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Com
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Mark all as Done'), FailureHandling.OPTIONAL)
-
-WebUI.delay(2)
-
 WebUI.setText(findTestObject('Licensing Manager/User Inbox/textarea__Complete comment'), 'اكتمال')
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))

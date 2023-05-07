@@ -68,7 +68,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>67ef2d5c-2ed0-4386-8f72-18805ec199cc</guid>
+      <guid>a539c3d5-f561-410d-822e-77d2352f34f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة موظف التراخيص على الطلب_الدخول للطلب (تاريخ بداية الرخصة-تاريخ المتابعة-مدة الترخيص(1)-شروط مخصصة)</testCaseId>
@@ -110,7 +110,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff9af6aa-59cb-4e19-9f91-91d68dcfeeea</guid>
+      <guid>bd193179-1ea3-481c-a105-cdb9761da8a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة موظف التراخيص على الطلب_الدخول للطلب (تاريخ بداية الرخصة-تاريخ المتابعة-مدة الترخيص(6)-شروط مخصصة)</testCaseId>

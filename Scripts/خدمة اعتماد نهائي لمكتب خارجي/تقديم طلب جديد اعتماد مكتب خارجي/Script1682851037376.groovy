@@ -82,12 +82,14 @@ WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/External Office Ap
 'مدة الترخيص'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/External Office Approval/input__licenseDurationType'), 'مؤقته')
 
+WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/External Office Approval/input__licenseDurationType'), Keys.chord(
+        Keys.ENTER))
+
 WebUI.delay(1)
 
 WebUI.setText(findTestObject('Organization Emploee_Home Page/External Office Approval/input__licenseDuration'), '1')
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/External Office Approval/input__licenseDurationType'), Keys.chord(
-        Keys.ENTER))
+WebUI.delay(1)
 
 'الشروحات الخاصة'
 WebUI.setText(findTestObject('Organization Emploee_Home Page/External Office Approval/textarea__description'), 'شروحات خاصة')

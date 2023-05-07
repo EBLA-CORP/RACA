@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CompleteScenario03_CollectionServices</name>
+   <name>CompleteScenario_Collector Approval (new-update-cancel)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,152 +10,152 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>675438c6-4a18-4dc7-9e1b-af0b66771b82</testSuiteGuid>
+   <testSuiteGuid>5f7c98f6-84b6-4191-81d1-e9223cbedfa5</testSuiteGuid>
    <testCaseLink>
-      <guid>41949c73-17fc-4df6-817d-c84fffae067d</guid>
+      <guid>b7de8c2a-db71-47ca-8037-c38ed5e08b2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/تقديم طلب جديد اعتماد خدمات تحصيل</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/تقديم طلب جديد اعتماد محصل</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb2fda1f-a2a8-4a45-b2fd-fc4c6899c9ef</guid>
+      <guid>14baa953-7c21-46cb-b8fc-bb2e126fd3dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/اعتماد طلب خدمات تحصيل من مدير الجمعية-الدخول للطلب</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/اعتماد طلب اعتماد محصل من مدير الجمعية - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b8ef4192-21df-4736-8a2c-7e0c258cbb40</guid>
+      <guid>6b1e819f-4364-4715-ab92-6aba2f07ed4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/موافقة أول موظف تراخيص (مستلم الطلب) على طلب خدمات التحصيل - الدخول للطلب</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/موافقة أول موظف تراخيص (مستلم الطلب) على طلب اعتماد محصل - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>13eee2a7-1267-4111-a9e5-a7b9f1f3cca1</guid>
+      <guid>427899af-9f47-4878-907e-6a5603c90cab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة ثاني موظف تراخيص على الطلب - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>db58b863-4ac3-407e-9c7e-dbe830c665c2</guid>
+      <guid>f4c086db-55c2-4c66-8eec-55e3d52fa361</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة رئيس قسم التراخيص على الطلب_الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ad4c4bc8-ba76-4684-9ac2-774d95baab86</guid>
+      <guid>3b920ba1-895e-487c-bc34-0b1a15fea37d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/الاعتماد النهائي للطلب من مدير التراخيص_الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e8bb8ed5-a7e4-4566-bb64-a117493ae8a9</guid>
+      <guid>420b6994-fdf6-4140-8b66-39e4349f3bff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/مراجعة طلب خدمات تحصيل من قبل موظف الجمعية بعد الاعتماد النهائي</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/مراجعة طلب اعتماد محصل من قبل موظف الجمعية بعد الاعتماد النهائي</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9fdf4b94-13ce-4abf-bcf0-b260ca09bb76</guid>
+      <guid>c69d44f4-480e-456b-86a4-adba901766fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/تحديث طلب اعتماد خدمات تحصيل</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/تحديث طلب اعتماد محصل</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cf048a1b-7687-4df6-8e2d-fed897ca5d67</guid>
+      <guid>d7704fd9-2e9c-4286-b6dc-da97036485c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/اعتماد طلب خدمات تحصيل من مدير الجمعية-الدخول للطلب</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/اعتماد طلب اعتماد محصل من مدير الجمعية - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>35f9b3d2-57cd-40a4-b6c5-5c67ef3e1934</guid>
+      <guid>414f3439-44e0-4835-81e5-ab77c42b5be2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/موافقة أول موظف تراخيص (مستلم الطلب) على طلب خدمات التحصيل - الدخول للطلب</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/موافقة أول موظف تراخيص (مستلم الطلب) على طلب اعتماد محصل - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>37a5255a-2ee9-4f45-a341-453a06422ddc</guid>
+      <guid>e2aa625e-5448-496d-a663-24bb5923e2bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة ثاني موظف تراخيص على الطلب - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>101bac59-f35a-4b14-ac38-3aef1d658039</guid>
+      <guid>3cb9333a-a89f-45df-8d9a-d14dc77f5f8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة رئيس قسم التراخيص على الطلب_الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e122c30-64d2-4e6d-887c-4bfd093f550b</guid>
+      <guid>5a74141c-dfdf-466b-9778-8a4220f9e5d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/الاعتماد النهائي للطلب من مدير التراخيص_الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>919883ba-01d9-4c24-9168-47554f1c1886</guid>
+      <guid>805327d5-bb02-43a8-aea8-89a518f1066f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/مراجعة طلب خدمات تحصيل من قبل موظف الجمعية بعد الاعتماد النهائي (تحديث)</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/مراجعة طلب اعتماد محصل من قبل موظف الجمعية بعد الاعتماد النهائي (تحديث)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>62504eec-d840-4146-a10c-f5f3b55be5af</guid>
+      <guid>9836d04e-a8a2-4fe2-9759-57c3c78ed2fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/إلغاء طلب اعتماد خدمات تحصيل</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/إلغاء طلب اعتماد محصل</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>686d3194-5df4-481a-87e3-13ac141e8620</guid>
+      <guid>3ebb10ab-dcd5-4b98-be27-7472c94bb38c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/اعتماد طلب خدمات تحصيل من مدير الجمعية-الدخول للطلب</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/اعتماد طلب اعتماد محصل من مدير الجمعية - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>27065eb1-e267-4a56-9efd-e40a558b744d</guid>
+      <guid>98c55b16-21c7-4340-9761-c835d7dc3b10</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/موافقة أول موظف تراخيص (مستلم الطلب) على طلب خدمات التحصيل - الدخول للطلب</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/موافقة أول موظف تراخيص (مستلم الطلب) على طلب اعتماد محصل - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8f4a5fdf-12c3-49e4-a823-27996776d4e2</guid>
+      <guid>693011ad-c185-4435-9c82-4ba7e2afe630</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة ثاني موظف تراخيص على الطلب - الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d5e0da90-c2df-4946-a35f-047431f8b00d</guid>
+      <guid>32a5e424-bb19-4055-9eb4-6cee6ced84f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة رئيس قسم التراخيص على الطلب_الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bedae7b6-eef3-4a5b-a261-00d519843750</guid>
+      <guid>35c6ea94-7b51-4dd0-9543-fc026985aaca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/الاعتماد النهائي للطلب من مدير التراخيص_الدخول للطلب</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>614e7002-ebd5-43fa-b3a9-5b182319e507</guid>
+      <guid>9d6a6d85-84e2-48a5-bf87-c766d0dba1d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/خدمات تحصيل/مراجعة طلب خدمات تحصيل من قبل موظف الجمعية بعد الاعتماد النهائي (إلغاء)</testCaseId>
+      <testCaseId>Test Cases/خدمة اعتماد محصل/مراجعة طلب اعتماد محصل من قبل موظف الجمعية بعد الاعتماد النهائي (إلغاء)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Organization Manager_Home Page/Team Inbox/button_Mar
 WebUI.delay(2)
 
 'مدة الترخيص'
-WebUI.setText(findTestObject('Licensing Specialist/User Inbox/input__licenseDuration'), '6')
+WebUI.setText(findTestObject('Licensing Specialist/User Inbox/input__licenseDuration (1)'), '1')
 
 WebUI.delay(1)
 

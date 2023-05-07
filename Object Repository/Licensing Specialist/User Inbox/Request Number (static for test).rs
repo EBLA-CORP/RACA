@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'PRT/911dd/2023/65' or . = 'PRT/911dd/2023/65')]</value>
+         <value>//span[(text() = 'EOFF/911dd/2023/73' or . = 'EOFF/911dd/2023/73')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -24,14 +24,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>07459c77-ccc6-4e1b-a28e-f9c868d8c146</webElementGuid>
+      <webElementGuid>3fc1949c-38ea-4d4f-bc01-6200e48b10a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>PRT/911dd/2023/65</value>
-      <webElementGuid>1f5ba37f-bd87-4ae7-902f-393a032a0ed8</webElementGuid>
+      <value>EOFF/911dd/2023/73</value>
+      <webElementGuid>528b2835-db64-4d19-b59d-600c28e7e2da</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

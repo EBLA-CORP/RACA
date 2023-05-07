@@ -26,7 +26,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>44e8423a-e17e-4dd9-8c00-6e85c79bd698</guid>
+      <guid>41b87d96-41c4-4938-a972-cacec3acdab5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/مشترك لكل الخدمات (عام)/موافقة موظف التراخيص على الطلب_الدخول للطلب (تاريخ بداية الرخصة-تاريخ المتابعة-مدة الترخيص(6)-شروط مخصصة)</testCaseId>

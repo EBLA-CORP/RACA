@@ -16,46 +16,62 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.text.SimpleDateFormat as SimpleDateFormat
 
-def date = new Date()
+WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول أخصائي تراخيص 3'), [:], FailureHandling.STOP_ON_FAILURE)
 
-def tomorrow_Date = date +1
+'بريد المستخدم'
+WebUI.click(findTestObject('Organization Manager_Home Page/span_user inbox'))
 
-def day = date[Calendar.DAY_OF_MONTH]
+WebUI.delay(3)
 
-def tomorrow = tomorrow_Date[Calendar.DAY_OF_MONTH]
-
-GlobalVariable.CalendarDay = String.valueOf(day)
-
-GlobalVariable.TomorrowDay = String.valueOf(tomorrow)
-
-Random rnd = new Random()
-
-randomNumber = (1000 + rnd.nextInt(9999))
-
-
-GlobalVariable.RandomNumber = String.valueOf(randomNumber)
-
-WebUI.callTestCase(findTestCase('تسجيل الدخول/تسجيل دخول موظف جمعية'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'خدمة اعتماد نهائي لمكتب خارجي'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/input__search'), 'طلب اعتماد نهائي لمكتب خارجي')
-
-WebUI.delay(2)
-
-'الدخول للخدمة'
-WebUI.click(findTestObject('Organization Emploee_Home Page/span_service (common)'))
+'الدخول للطلب'
+WebUI.click(findTestObject('Licensing Specialist/User Inbox/Request Number (static for test)'))
 
 WebUI.delay(5)
 
-'نوع الطلب'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/External Office Approval/input__requestType'), 'جديد')
+'الضغط على زر موافقة'
+WebUI.click(findTestObject('Licensing Specialist/User Inbox/button_Accept'))
 
-WebUI.sendKeys(findTestObject('Organization Emploee_Home Page/External Office Approval/input__requestType'), Keys.chord(
-        Keys.ENTER))
+WebUI.delay(2)
 
-' اسم المكتب الخارجي'
-WebUI.setText(findTestObject('Organization Emploee_Home Page/External Office Approval/input__externalOfficeName'), 'مكتب كاتالون' + GlobalVariable.RandomNumber)
+'مدة الترخيص'
+WebUI.setText(findTestObject('Licensing Specialist/User Inbox/input__licenseDuration (1)'), '1')
 
+WebUI.delay(1)
+
+'تاريخ بداية الرخصة'
+WebUI.click(findTestObject('Licensing Specialist/User Inbox/div__licenseStartDate (1)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+'اختيار تاريخ اليوم'
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+'تاريخ المتابعة'
+WebUI.click(findTestObject('Licensing Specialist/User Inbox/div__followUpDate (1)'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+'اختيار تاريخ اليوم'
+WebUI.click(findTestObject('Organization Emploee_Home Page/Employment/td_CalendarDay'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+'إدخال الشروط المخصصة'
+WebUI.setText(findTestObject('Licensing Specialist/User Inbox/textarea__customTerms (1)'), 'شروط مخصصة')
+
+'التعليق'
+WebUI.setText(findTestObject('Licensing Specialist/User Inbox/textarea__comment'), 'موافقة موظف التراخيص')
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
+
+WebUI.delay(10)
+
+WebUI.verifyTextNotPresent(GlobalVariable.RequestNumber, false, FailureHandling.OPTIONAL)
+
+WebUI.closeBrowser()
 
